@@ -1,0 +1,3 @@
+@protocol TaobaoPublicApi 
+
+@end

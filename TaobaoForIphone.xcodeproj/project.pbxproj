@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TaobaoForIphoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F12C7C6010D0E875007494B1 /* TaobaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */; };
+		F1BDEF8F10D0EB0C0078F6C3 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF5E10D0EB0C0078F6C3 /* NSObject+SBJSON.m */; };
+		F1BDEF9010D0EB0C0078F6C3 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6010D0EB0C0078F6C3 /* NSString+SBJSON.m */; };
+		F1BDEF9110D0EB0C0078F6C3 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6210D0EB0C0078F6C3 /* SBJSON.m */; };
+		F1BDEF9210D0EB0C0078F6C3 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6410D0EB0C0078F6C3 /* SBJsonBase.m */; };
+		F1BDEF9310D0EB0C0078F6C3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6610D0EB0C0078F6C3 /* SBJsonParser.m */; };
+		F1BDEF9410D0EB0C0078F6C3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6810D0EB0C0078F6C3 /* SBJsonWriter.m */; };
+		F1BDEF9510D0EB0C0078F6C3 /* ApiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */; };
+		F1BDEF9610D0EB0C0078F6C3 /* JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6D10D0EB0C0078F6C3 /* JSONArray.m */; };
+		F1BDEF9710D0EB0C0078F6C3 /* JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6F10D0EB0C0078F6C3 /* JSONObject.m */; };
+		F1BDEF9810D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7110D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m */; };
+		F1BDEF9910D0EB0C0078F6C3 /* ErrorCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7310D0EB0C0078F6C3 /* ErrorCode.m */; };
+		F1BDEF9A10D0EB0C0078F6C3 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7610D0EB0C0078F6C3 /* Item.m */; };
+		F1BDEF9B10D0EB0C0078F6C3 /* ItemsGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7810D0EB0C0078F6C3 /* ItemsGetRequest.m */; };
+		F1BDEF9C10D0EB0C0078F6C3 /* ItemsGetResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7A10D0EB0C0078F6C3 /* ItemsGetResponse.m */; };
+		F1BDEF9D10D0EB0C0078F6C3 /* ListUrlResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7C10D0EB0C0078F6C3 /* ListUrlResponse.m */; };
+		F1BDEF9E10D0EB0C0078F6C3 /* TaobaoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7E10D0EB0C0078F6C3 /* TaobaoModel.m */; };
+		F1BDEF9F10D0EB0C0078F6C3 /* UrlResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF8010D0EB0C0078F6C3 /* UrlResponse.m */; };
+		F1BDEFA010D0EB0C0078F6C3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = F1BDEF8110D0EB0C0078F6C3 /* README */; };
+		F1BDEFA110D0EB0C0078F6C3 /* TaobaoApiException.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF8310D0EB0C0078F6C3 /* TaobaoApiException.m */; };
+		F1BDEFA210D0EB0C0078F6C3 /* TaobaoApiMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF8510D0EB0C0078F6C3 /* TaobaoApiMethod.m */; };
+		F1BDEFA310D0EB0C0078F6C3 /* TaobaoJsonRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */; };
+		F1BDEFA410D0EB0C0078F6C3 /* TaobaoUrlFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF8D10D0EB0C0078F6C3 /* TaobaoUrlFetch.m */; };
+		F1BDEFBA10D0ECB60078F6C3 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEFB510D0ECB60078F6C3 /* DateUtil.m */; };
+		F1BDEFBB10D0ECB60078F6C3 /* EncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEFB710D0ECB60078F6C3 /* EncryptUtil.m */; };
+		F1BDEFBC10D0ECB60078F6C3 /* FetchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEFB910D0ECB60078F6C3 /* FetchUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoForIphoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoForIphoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TaobaoForIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaobaoForIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TaobaoForIphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoForIphone_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TaobaoForIphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TaobaoForIphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoViewController.h; sourceTree = "<group>"; };
+		F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoViewController.m; sourceTree = "<group>"; };
+		F1BDEF5C10D0EB0C0078F6C3 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F1BDEF5D10D0EB0C0078F6C3 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F1BDEF5E10D0EB0C0078F6C3 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F1BDEF5F10D0EB0C0078F6C3 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F1BDEF6010D0EB0C0078F6C3 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F1BDEF6110D0EB0C0078F6C3 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		F1BDEF6210D0EB0C0078F6C3 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		F1BDEF6310D0EB0C0078F6C3 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F1BDEF6410D0EB0C0078F6C3 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F1BDEF6510D0EB0C0078F6C3 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F1BDEF6610D0EB0C0078F6C3 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F1BDEF6710D0EB0C0078F6C3 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F1BDEF6810D0EB0C0078F6C3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F1BDEF6910D0EB0C0078F6C3 /* ApiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConstants.h; sourceTree = "<group>"; };
+		F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiConstants.m; sourceTree = "<group>"; };
+		F1BDEF6C10D0EB0C0078F6C3 /* JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONArray.h; sourceTree = "<group>"; };
+		F1BDEF6D10D0EB0C0078F6C3 /* JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONArray.m; sourceTree = "<group>"; };
+		F1BDEF6E10D0EB0C0078F6C3 /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
+		F1BDEF6F10D0EB0C0078F6C3 /* JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObject.m; sourceTree = "<group>"; };
+		F1BDEF7010D0EB0C0078F6C3 /* TaobaoItemJSONConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoItemJSONConvert.h; sourceTree = "<group>"; };
+		F1BDEF7110D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoItemJSONConvert.m; sourceTree = "<group>"; };
+		F1BDEF7210D0EB0C0078F6C3 /* ErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCode.h; sourceTree = "<group>"; };
+		F1BDEF7310D0EB0C0078F6C3 /* ErrorCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorCode.m; sourceTree = "<group>"; };
+		F1BDEF7510D0EB0C0078F6C3 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		F1BDEF7610D0EB0C0078F6C3 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		F1BDEF7710D0EB0C0078F6C3 /* ItemsGetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsGetRequest.h; sourceTree = "<group>"; };
+		F1BDEF7810D0EB0C0078F6C3 /* ItemsGetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsGetRequest.m; sourceTree = "<group>"; };
+		F1BDEF7910D0EB0C0078F6C3 /* ItemsGetResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsGetResponse.h; sourceTree = "<group>"; };
+		F1BDEF7A10D0EB0C0078F6C3 /* ItemsGetResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsGetResponse.m; sourceTree = "<group>"; };
+		F1BDEF7B10D0EB0C0078F6C3 /* ListUrlResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListUrlResponse.h; sourceTree = "<group>"; };
+		F1BDEF7C10D0EB0C0078F6C3 /* ListUrlResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListUrlResponse.m; sourceTree = "<group>"; };
+		F1BDEF7D10D0EB0C0078F6C3 /* TaobaoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoModel.h; sourceTree = "<group>"; };
+		F1BDEF7E10D0EB0C0078F6C3 /* TaobaoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoModel.m; sourceTree = "<group>"; };
+		F1BDEF7F10D0EB0C0078F6C3 /* UrlResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlResponse.h; sourceTree = "<group>"; };
+		F1BDEF8010D0EB0C0078F6C3 /* UrlResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlResponse.m; sourceTree = "<group>"; };
+		F1BDEF8110D0EB0C0078F6C3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F1BDEF8210D0EB0C0078F6C3 /* TaobaoApiException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoApiException.h; sourceTree = "<group>"; };
+		F1BDEF8310D0EB0C0078F6C3 /* TaobaoApiException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoApiException.m; sourceTree = "<group>"; };
+		F1BDEF8410D0EB0C0078F6C3 /* TaobaoApiMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoApiMethod.h; sourceTree = "<group>"; };
+		F1BDEF8510D0EB0C0078F6C3 /* TaobaoApiMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoApiMethod.m; sourceTree = "<group>"; };
+		F1BDEF8610D0EB0C0078F6C3 /* TaobaoJsonRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoJsonRestClient.h; sourceTree = "<group>"; };
+		F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoJsonRestClient.m; sourceTree = "<group>"; };
+		F1BDEF8810D0EB0C0078F6C3 /* TaobaoJsonRestClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoJsonRestClientDelegate.h; sourceTree = "<group>"; };
+		F1BDEF8910D0EB0C0078F6C3 /* TaobaoPrivateApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoPrivateApi.h; sourceTree = "<group>"; };
+		F1BDEF8A10D0EB0C0078F6C3 /* TaobaoPublicApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoPublicApi.h; sourceTree = "<group>"; };
+		F1BDEF8B10D0EB0C0078F6C3 /* TaobaoRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoRestClient.h; sourceTree = "<group>"; };
+		F1BDEF8C10D0EB0C0078F6C3 /* TaobaoUrlFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoUrlFetch.h; sourceTree = "<group>"; };
+		F1BDEF8D10D0EB0C0078F6C3 /* TaobaoUrlFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoUrlFetch.m; sourceTree = "<group>"; };
+		F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoUrlFetchDelegate.h; sourceTree = "<group>"; };
+		F1BDEFB410D0ECB60078F6C3 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		F1BDEFB510D0ECB60078F6C3 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		F1BDEFB610D0ECB60078F6C3 /* EncryptUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptUtil.h; sourceTree = "<group>"; };
+		F1BDEFB710D0ECB60078F6C3 /* EncryptUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptUtil.m; sourceTree = "<group>"; };
+		F1BDEFB810D0ECB60078F6C3 /* FetchUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchUtil.h; sourceTree = "<group>"; };
+		F1BDEFB910D0ECB60078F6C3 /* FetchUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDEF5B10D0EB0C0078F6C3 /* JSON */,
+				F1BDEF6910D0EB0C0078F6C3 /* ApiConstants.h */,
+				F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */,
+				F1BDEF6B10D0EB0C0078F6C3 /* convert */,
+				F1BDEF7210D0EB0C0078F6C3 /* ErrorCode.h */,
+				F1BDEF7310D0EB0C0078F6C3 /* ErrorCode.m */,
+				F1BDEFB310D0ECB60078F6C3 /* util */,
+				F1BDEF7410D0EB0C0078F6C3 /* model */,
+				F1BDEF8110D0EB0C0078F6C3 /* README */,
+				F1BDEF8210D0EB0C0078F6C3 /* TaobaoApiException.h */,
+				F1BDEF8310D0EB0C0078F6C3 /* TaobaoApiException.m */,
+				F1BDEF8410D0EB0C0078F6C3 /* TaobaoApiMethod.h */,
+				F1BDEF8510D0EB0C0078F6C3 /* TaobaoApiMethod.m */,
+				F1BDEF8610D0EB0C0078F6C3 /* TaobaoJsonRestClient.h */,
+				F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */,
+				F1BDEF8810D0EB0C0078F6C3 /* TaobaoJsonRestClientDelegate.h */,
+				F1BDEF8910D0EB0C0078F6C3 /* TaobaoPrivateApi.h */,
+				F1BDEF8A10D0EB0C0078F6C3 /* TaobaoPublicApi.h */,
+				F1BDEF8B10D0EB0C0078F6C3 /* TaobaoRestClient.h */,
+				F1BDEF8C10D0EB0C0078F6C3 /* TaobaoUrlFetch.h */,
+				F1BDEF8D10D0EB0C0078F6C3 /* TaobaoUrlFetch.m */,
+				F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */,
+				1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */,
+				F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */,
+				F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TaobaoForIphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TaobaoForIphone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TaobaoForIphone-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1BDEF5B10D0EB0C0078F6C3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDEF5C10D0EB0C0078F6C3 /* JSON.h */,
+				F1BDEF5D10D0EB0C0078F6C3 /* NSObject+SBJSON.h */,
+				F1BDEF5E10D0EB0C0078F6C3 /* NSObject+SBJSON.m */,
+				F1BDEF5F10D0EB0C0078F6C3 /* NSString+SBJSON.h */,
+				F1BDEF6010D0EB0C0078F6C3 /* NSString+SBJSON.m */,
+				F1BDEF6110D0EB0C0078F6C3 /* SBJSON.h */,
+				F1BDEF6210D0EB0C0078F6C3 /* SBJSON.m */,
+				F1BDEF6310D0EB0C0078F6C3 /* SBJsonBase.h */,
+				F1BDEF6410D0EB0C0078F6C3 /* SBJsonBase.m */,
+				F1BDEF6510D0EB0C0078F6C3 /* SBJsonParser.h */,
+				F1BDEF6610D0EB0C0078F6C3 /* SBJsonParser.m */,
+				F1BDEF6710D0EB0C0078F6C3 /* SBJsonWriter.h */,
+				F1BDEF6810D0EB0C0078F6C3 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		F1BDEF6B10D0EB0C0078F6C3 /* convert */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDEF6C10D0EB0C0078F6C3 /* JSONArray.h */,
+				F1BDEF6D10D0EB0C0078F6C3 /* JSONArray.m */,
+				F1BDEF6E10D0EB0C0078F6C3 /* JSONObject.h */,
+				F1BDEF6F10D0EB0C0078F6C3 /* JSONObject.m */,
+				F1BDEF7010D0EB0C0078F6C3 /* TaobaoItemJSONConvert.h */,
+				F1BDEF7110D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m */,
+			);
+			path = convert;
+			sourceTree = "<group>";
+		};
+		F1BDEF7410D0EB0C0078F6C3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDEF7510D0EB0C0078F6C3 /* Item.h */,
+				F1BDEF7610D0EB0C0078F6C3 /* Item.m */,
+				F1BDEF7710D0EB0C0078F6C3 /* ItemsGetRequest.h */,
+				F1BDEF7810D0EB0C0078F6C3 /* ItemsGetRequest.m */,
+				F1BDEF7910D0EB0C0078F6C3 /* ItemsGetResponse.h */,
+				F1BDEF7A10D0EB0C0078F6C3 /* ItemsGetResponse.m */,
+				F1BDEF7B10D0EB0C0078F6C3 /* ListUrlResponse.h */,
+				F1BDEF7C10D0EB0C0078F6C3 /* ListUrlResponse.m */,
+				F1BDEF7D10D0EB0C0078F6C3 /* TaobaoModel.h */,
+				F1BDEF7E10D0EB0C0078F6C3 /* TaobaoModel.m */,
+				F1BDEF7F10D0EB0C0078F6C3 /* UrlResponse.h */,
+				F1BDEF8010D0EB0C0078F6C3 /* UrlResponse.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F1BDEFB310D0ECB60078F6C3 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDEFB410D0ECB60078F6C3 /* DateUtil.h */,
+				F1BDEFB510D0ECB60078F6C3 /* DateUtil.m */,
+				F1BDEFB610D0ECB60078F6C3 /* EncryptUtil.h */,
+				F1BDEFB710D0ECB60078F6C3 /* EncryptUtil.m */,
+				F1BDEFB810D0ECB60078F6C3 /* FetchUtil.h */,
+				F1BDEFB910D0ECB60078F6C3 /* FetchUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TaobaoForIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TaobaoForIphone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaobaoForIphone;
+			productName = TaobaoForIphone;
+			productReference = 1D6058910D05DD3D006BFB54 /* TaobaoForIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TaobaoForIphone" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TaobaoForIphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F1BDEFA010D0EB0C0078F6C3 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TaobaoForIphoneAppDelegate.m in Sources */,
+				F12C7C6010D0E875007494B1 /* TaobaoViewController.m in Sources */,
+				F1BDEF8F10D0EB0C0078F6C3 /* NSObject+SBJSON.m in Sources */,
+				F1BDEF9010D0EB0C0078F6C3 /* NSString+SBJSON.m in Sources */,
+				F1BDEF9110D0EB0C0078F6C3 /* SBJSON.m in Sources */,
+				F1BDEF9210D0EB0C0078F6C3 /* SBJsonBase.m in Sources */,
+				F1BDEF9310D0EB0C0078F6C3 /* SBJsonParser.m in Sources */,
+				F1BDEF9410D0EB0C0078F6C3 /* SBJsonWriter.m in Sources */,
+				F1BDEF9510D0EB0C0078F6C3 /* ApiConstants.m in Sources */,
+				F1BDEF9610D0EB0C0078F6C3 /* JSONArray.m in Sources */,
+				F1BDEF9710D0EB0C0078F6C3 /* JSONObject.m in Sources */,
+				F1BDEF9810D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m in Sources */,
+				F1BDEF9910D0EB0C0078F6C3 /* ErrorCode.m in Sources */,
+				F1BDEF9A10D0EB0C0078F6C3 /* Item.m in Sources */,
+				F1BDEF9B10D0EB0C0078F6C3 /* ItemsGetRequest.m in Sources */,
+				F1BDEF9C10D0EB0C0078F6C3 /* ItemsGetResponse.m in Sources */,
+				F1BDEF9D10D0EB0C0078F6C3 /* ListUrlResponse.m in Sources */,
+				F1BDEF9E10D0EB0C0078F6C3 /* TaobaoModel.m in Sources */,
+				F1BDEF9F10D0EB0C0078F6C3 /* UrlResponse.m in Sources */,
+				F1BDEFA110D0EB0C0078F6C3 /* TaobaoApiException.m in Sources */,
+				F1BDEFA210D0EB0C0078F6C3 /* TaobaoApiMethod.m in Sources */,
+				F1BDEFA310D0EB0C0078F6C3 /* TaobaoJsonRestClient.m in Sources */,
+				F1BDEFA410D0EB0C0078F6C3 /* TaobaoUrlFetch.m in Sources */,
+				F1BDEFBA10D0ECB60078F6C3 /* DateUtil.m in Sources */,
+				F1BDEFBB10D0ECB60078F6C3 /* EncryptUtil.m in Sources */,
+				F1BDEFBC10D0ECB60078F6C3 /* FetchUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TaobaoForIphone_Prefix.pch;
+				INFOPLIST_FILE = "TaobaoForIphone-Info.plist";
+				PRODUCT_NAME = TaobaoForIphone;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TaobaoForIphone_Prefix.pch;
+				INFOPLIST_FILE = "TaobaoForIphone-Info.plist";
+				PRODUCT_NAME = TaobaoForIphone;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TaobaoForIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TaobaoForIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

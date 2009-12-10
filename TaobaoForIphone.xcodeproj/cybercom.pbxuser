@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {637, 393}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 492}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {637, 468}}";
+			sepNavSelRange = "{434, 0}";
+			sepNavVisRange = "{96, 648}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TaobaoForIphone */ = {
+		activeExec = 0;
+		executables = (
+			F12C7C4A10D0E80B007494B1 /* TaobaoForIphone */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F12C7C4A10D0E80B007494B1 /* TaobaoForIphone */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TaobaoForIphone */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TaobaoForIphone */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = F12C7C5710D0E82A007494B1 /* Code sense */;
+		executables = (
+			F12C7C4A10D0E80B007494B1 /* TaobaoForIphone */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					459,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 282126933;
+			PBXWorkspaceStateSaveDate = 282126933;
+		};
+		perUserProjectItems = {
+			F1BDEFA710D0EC9F0078F6C3 /* XCBuildMessageTextBookmark */ = F1BDEFA710D0EC9F0078F6C3 /* XCBuildMessageTextBookmark */;
+			F1BDEFA810D0EC9F0078F6C3 /* PBXTextBookmark */ = F1BDEFA810D0EC9F0078F6C3 /* PBXTextBookmark */;
+			F1BDEFAB10D0ECA60078F6C3 /* PBXTextBookmark */ = F1BDEFAB10D0ECA60078F6C3 /* PBXTextBookmark */;
+			F1BDEFAC10D0ECA60078F6C3 /* PBXTextBookmark */ = F1BDEFAC10D0ECA60078F6C3 /* PBXTextBookmark */;
+			F1BDEFAD10D0ECA60078F6C3 /* PBXTextBookmark */ = F1BDEFAD10D0ECA60078F6C3 /* PBXTextBookmark */;
+			F1BDEFAE10D0ECA60078F6C3 /* XCBuildMessageTextBookmark */ = F1BDEFAE10D0ECA60078F6C3 /* XCBuildMessageTextBookmark */;
+			F1BDEFAF10D0ECA60078F6C3 /* PBXTextBookmark */ = F1BDEFAF10D0ECA60078F6C3 /* PBXTextBookmark */;
+			F1BDEFC510D0F1E20078F6C3 /* PBXTextBookmark */ = F1BDEFC510D0F1E20078F6C3 /* PBXTextBookmark */;
+			F1BDEFC610D0F1E20078F6C3 /* PBXTextBookmark */ = F1BDEFC610D0F1E20078F6C3 /* PBXTextBookmark */;
+			F1BDEFC710D0F1E20078F6C3 /* PBXTextBookmark */ = F1BDEFC710D0F1E20078F6C3 /* PBXTextBookmark */;
+			F1BDEFC810D0F1E20078F6C3 /* PBXTextBookmark */ = F1BDEFC810D0F1E20078F6C3 /* PBXTextBookmark */;
+			F1BDEFC910D0F1E20078F6C3 /* PBXTextBookmark */ = F1BDEFC910D0F1E20078F6C3 /* PBXTextBookmark */;
+			F1BDEFCA10D0F1E20078F6C3 /* PBXTextBookmark */ = F1BDEFCA10D0F1E20078F6C3 /* PBXTextBookmark */;
+			F1BDEFDC10D0F2F10078F6C3 /* PBXTextBookmark */ = F1BDEFDC10D0F2F10078F6C3 /* PBXTextBookmark */;
+			F1BDEFDD10D0F2F10078F6C3 /* PBXTextBookmark */ = F1BDEFDD10D0F2F10078F6C3 /* PBXTextBookmark */;
+			F1BDEFDE10D0F2F10078F6C3 /* PBXTextBookmark */ = F1BDEFDE10D0F2F10078F6C3 /* PBXTextBookmark */;
+			F1BDEFE110D0F3080078F6C3 /* PBXTextBookmark */ = F1BDEFE110D0F3080078F6C3 /* PBXTextBookmark */;
+			F1BDEFE410D0F3130078F6C3 /* PBXTextBookmark */ = F1BDEFE410D0F3130078F6C3 /* PBXTextBookmark */;
+			F1BDEFE910D0F44C0078F6C3 /* PBXTextBookmark */ = F1BDEFE910D0F44C0078F6C3 /* PBXTextBookmark */;
+			F1BDEFEA10D0F44C0078F6C3 /* PBXTextBookmark */ = F1BDEFEA10D0F44C0078F6C3 /* PBXTextBookmark */;
+			F1BDEFEB10D0F44C0078F6C3 /* PBXTextBookmark */ = F1BDEFEB10D0F44C0078F6C3 /* PBXTextBookmark */;
+			F1BDEFEC10D0F4560078F6C3 /* PBXTextBookmark */ = F1BDEFEC10D0F4560078F6C3 /* PBXTextBookmark */;
+			F1BDEFEF10D0F4620078F6C3 /* PBXTextBookmark */ = F1BDEFEF10D0F4620078F6C3 /* PBXTextBookmark */;
+			F1BDEFF610D0F4A50078F6C3 /* PBXTextBookmark */ = F1BDEFF610D0F4A50078F6C3 /* PBXTextBookmark */;
+			F1BDEFF710D0F4A50078F6C3 /* PBXTextBookmark */ = F1BDEFF710D0F4A50078F6C3 /* PBXTextBookmark */;
+			F1BDEFF810D0F4A50078F6C3 /* PBXTextBookmark */ = F1BDEFF810D0F4A50078F6C3 /* PBXTextBookmark */;
+			F1BDEFFF10D0F5460078F6C3 /* PBXTextBookmark */ = F1BDEFFF10D0F5460078F6C3 /* PBXTextBookmark */;
+			F1BDF00010D0F5460078F6C3 /* PBXTextBookmark */ = F1BDF00010D0F5460078F6C3 /* PBXTextBookmark */;
+			F1BDF00110D0F5460078F6C3 /* PBXTextBookmark */ = F1BDF00110D0F5460078F6C3 /* PBXTextBookmark */;
+			F1BDF00210D0F5460078F6C3 /* PBXTextBookmark */ = F1BDF00210D0F5460078F6C3 /* PBXTextBookmark */;
+			F1BDF00310D0F5460078F6C3 /* PBXTextBookmark */ = F1BDF00310D0F5460078F6C3 /* PBXTextBookmark */;
+			F1BDF00410D0F5460078F6C3 /* PBXTextBookmark */ = F1BDF00410D0F5460078F6C3 /* PBXTextBookmark */;
+			F1BDF00910D0F5A80078F6C3 /* PBXTextBookmark */ = F1BDF00910D0F5A80078F6C3 /* PBXTextBookmark */;
+			F1BDF00A10D0F5B00078F6C3 /* PBXTextBookmark */ = F1BDF00A10D0F5B00078F6C3 /* PBXTextBookmark */;
+			F1BDF00B10D0F5B00078F6C3 /* PBXTextBookmark */ = F1BDF00B10D0F5B00078F6C3 /* PBXTextBookmark */;
+			F1BDF00C10D0F5B00078F6C3 /* PBXTextBookmark */ = F1BDF00C10D0F5B00078F6C3 /* PBXTextBookmark */;
+			F1BDF00F10D0F5DD0078F6C3 /* PBXTextBookmark */ = F1BDF00F10D0F5DD0078F6C3 /* PBXTextBookmark */;
+			F1BDF01010D0F5F70078F6C3 /* PBXTextBookmark */ = F1BDF01010D0F5F70078F6C3 /* PBXTextBookmark */;
+			F1BDF01110D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01110D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01210D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01210D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01310D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01310D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01410D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01410D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01510D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01510D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01610D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01610D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01710D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01710D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01810D0F67D0078F6C3 /* PBXTextBookmark */ = F1BDF01810D0F67D0078F6C3 /* PBXTextBookmark */;
+			F1BDF01C10D0F6A50078F6C3 /* PBXTextBookmark */ = F1BDF01C10D0F6A50078F6C3 /* PBXTextBookmark */;
+			F1BDF01D10D0F7130078F6C3 /* PBXTextBookmark */ = F1BDF01D10D0F7130078F6C3 /* PBXTextBookmark */;
+			F1BDF01E10D0F7130078F6C3 /* PBXTextBookmark */ = F1BDF01E10D0F7130078F6C3 /* PBXTextBookmark */;
+			F1BDF01F10D0F7130078F6C3 /* PBXTextBookmark */ = F1BDF01F10D0F7130078F6C3 /* PBXTextBookmark */;
+			F1BDF02310D0F73A0078F6C3 /* PBXTextBookmark */ = F1BDF02310D0F73A0078F6C3 /* PBXTextBookmark */;
+			F1BDF02410D0F73A0078F6C3 /* XCBuildMessageTextBookmark */ = F1BDF02410D0F73A0078F6C3 /* XCBuildMessageTextBookmark */;
+			F1BDF02510D0F73A0078F6C3 /* PBXTextBookmark */ = F1BDF02510D0F73A0078F6C3 /* PBXTextBookmark */;
+			F1BDF02610D0F74C0078F6C3 /* PBXTextBookmark */ = F1BDF02610D0F74C0078F6C3 /* PBXTextBookmark */;
+			F1BDF02710D0F74C0078F6C3 /* PBXTextBookmark */ = F1BDF02710D0F74C0078F6C3 /* PBXTextBookmark */;
+			F1BDF02810D0F74C0078F6C3 /* PBXTextBookmark */ = F1BDF02810D0F74C0078F6C3 /* PBXTextBookmark */;
+			F1BDF02910D0F74C0078F6C3 /* PBXTextBookmark */ = F1BDF02910D0F74C0078F6C3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F12C7C5610D0E82A007494B1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F12C7C4A10D0E80B007494B1 /* TaobaoForIphone */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TaobaoForIphone;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F12C7C5610D0E82A007494B1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F12C7C5710D0E82A007494B1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {637, 370}}";
+			sepNavSelRange = "{530, 0}";
+			sepNavVisRange = "{0, 541}";
+		};
+	};
+	F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1404}}";
+			sepNavSelRange = "{832, 0}";
+			sepNavVisRange = "{599, 978}";
+		};
+	};
+	F1BDEF8610D0EB0C0078F6C3 /* TaobaoJsonRestClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 676}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{703, 1893}";
+		};
+	};
+	F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 4758}}";
+			sepNavSelRange = "{190, 0}";
+			sepNavVisRange = "{0, 284}";
+		};
+	};
+	F1BDEF8810D0EB0C0078F6C3 /* TaobaoJsonRestClientDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {637, 393}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 260}";
+		};
+	};
+	F1BDEF8A10D0EB0C0078F6C3 /* TaobaoPublicApi.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {637, 393}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 33}";
+		};
+	};
+	F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 393}}";
+			sepNavSelRange = "{249, 0}";
+			sepNavVisRange = "{0, 249}";
+		};
+	};
+	F1BDEFA710D0EC9F0078F6C3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "DateUtil.h: No such file or directory";
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 7;
+		rType = 1;
+	};
+	F1BDEFA810D0EC9F0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 8";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	F1BDEFAB10D0ECA60078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */;
+		name = "TaobaoForIphoneAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 435;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 59;
+	};
+	F1BDEFAC10D0ECA60078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	F1BDEFAD10D0ECA60078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 30";
+		rLen = 0;
+		rLoc = 1810;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 591;
+	};
+	F1BDEFAE10D0ECA60078F6C3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "DateUtil.h: No such file or directory";
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 7;
+		rType = 1;
+	};
+	F1BDEFAF10D0ECA60078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 8";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 0;
+	};
+	F1BDEFC510D0F1E20078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 6";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 2754;
+	};
+	F1BDEFC610D0F1E20078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */;
+		name = "TaobaoForIphoneAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 435;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 59;
+	};
+	F1BDEFC710D0F1E20078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */;
+		name = "TaobaoUrlFetchDelegate.h: 10";
+		rLen = 0;
+		rLoc = 249;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	F1BDEFC810D0F1E20078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	F1BDEFC910D0F1E20078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 15";
+		rLen = 0;
+		rLoc = 431;
+		rType = 0;
+		vrLen = 887;
+		vrLoc = 0;
+	};
+	F1BDEFCA10D0F1E20078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 33";
+		rLen = 0;
+		rLoc = 1810;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 280;
+	};
+	F1BDEFDC10D0F2F10078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	F1BDEFDD10D0F2F10078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 77";
+		rLen = 0;
+		rLoc = 3047;
+		rType = 0;
+		vrLen = 1167;
+		vrLoc = 282;
+	};
+	F1BDEFDE10D0F2F10078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 77";
+		rLen = 0;
+		rLoc = 3047;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 282;
+	};
+	F1BDEFE110D0F3080078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 40";
+		rLen = 0;
+		rLoc = 1516;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 542;
+	};
+	F1BDEFE410D0F3130078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 40";
+		rLen = 0;
+		rLoc = 1509;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 542;
+	};
+	F1BDEFE910D0F44C0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	F1BDEFEA10D0F44C0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 74";
+		rLen = 0;
+		rLoc = 2561;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 1628;
+	};
+	F1BDEFEB10D0F44C0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 81";
+		rLen = 0;
+		rLoc = 2605;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 1955;
+	};
+	F1BDEFEC10D0F4560078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 75";
+		rLen = 0;
+		rLoc = 2561;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 1955;
+	};
+	F1BDEFEF10D0F4620078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 75";
+		rLen = 0;
+		rLoc = 2561;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 1955;
+	};
+	F1BDEFF610D0F4A50078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	F1BDEFF710D0F4A50078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 75";
+		rLen = 0;
+		rLoc = 2561;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 1658;
+	};
+	F1BDEFF810D0F4A50078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 82";
+		rLen = 0;
+		rLoc = 2642;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 2082;
+	};
+	F1BDEFFF10D0F5460078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	F1BDF00010D0F5460078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8810D0EB0C0078F6C3 /* TaobaoJsonRestClientDelegate.h */;
+		name = "TaobaoJsonRestClientDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	F1BDF00110D0F5460078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8610D0EB0C0078F6C3 /* TaobaoJsonRestClient.h */;
+		name = "TaobaoJsonRestClient.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1893;
+		vrLoc = 703;
+	};
+	F1BDF00210D0F5460078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 82";
+		rLen = 0;
+		rLoc = 2642;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 2448;
+	};
+	F1BDF00310D0F5460078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 312";
+		rLen = 0;
+		rLoc = 9921;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 9709;
+	};
+	F1BDF00410D0F5460078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 312";
+		rLen = 0;
+		rLoc = 9921;
+		rType = 0;
+		vrLen = 1392;
+		vrLoc = 9737;
+	};
+	F1BDF00910D0F5A80078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 8";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 0;
+	};
+	F1BDF00A10D0F5B00078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 82";
+		rLen = 0;
+		rLoc = 2642;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 821;
+	};
+	F1BDF00B10D0F5B00078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 312";
+		rLen = 0;
+		rLoc = 9921;
+		rType = 0;
+		vrLen = 1566;
+		vrLoc = 9737;
+	};
+	F1BDF00C10D0F5B00078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 312";
+		rLen = 0;
+		rLoc = 9921;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 9473;
+	};
+	F1BDF00F10D0F5DD0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 8";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 0;
+	};
+	F1BDF01010D0F5F70078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 305";
+		rLen = 0;
+		rLoc = 9731;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 9860;
+	};
+	F1BDF01110D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 305";
+		rLen = 0;
+		rLoc = 9731;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 9860;
+	};
+	F1BDF01210D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8810D0EB0C0078F6C3 /* TaobaoJsonRestClientDelegate.h */;
+		name = "TaobaoJsonRestClientDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	F1BDF01310D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8A10D0EB0C0078F6C3 /* TaobaoPublicApi.h */;
+		name = "TaobaoPublicApi.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 33;
+		vrLoc = 0;
+	};
+	F1BDF01410D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */;
+		name = "TaobaoForIphoneAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	F1BDF01510D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */;
+		name = "TaobaoForIphoneAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 435;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 96;
+	};
+	F1BDF01610D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 20";
+		rLen = 0;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 0;
+	};
+	F1BDF01710D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 82";
+		rLen = 0;
+		rLoc = 2642;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 1653;
+	};
+	F1BDF01810D0F67D0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 51";
+		rLen = 0;
+		rLoc = 1810;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 2494;
+	};
+	F1BDF01C10D0F6A50078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 8";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 0;
+	};
+	F1BDF01D10D0F7130078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 33";
+		rLen = 9;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 599;
+	};
+	F1BDF01E10D0F7130078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 20";
+		rLen = 0;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 0;
+	};
+	F1BDF01F10D0F7130078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 22";
+		rLen = 0;
+		rLoc = 535;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	F1BDF02310D0F73A0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */;
+		name = "TaobaoJsonRestClient.m: 8";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 284;
+		vrLoc = 0;
+	};
+	F1BDF02410D0F73A0078F6C3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Multiple methods named '-init' found";
+		fRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 19;
+		rType = 1;
+	};
+	F1BDF02510D0F73A0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */;
+		name = "TaobaoForIphoneAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 295;
+	};
+	F1BDF02610D0F74C0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */;
+		name = "TaobaoForIphoneAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 96;
+	};
+	F1BDF02710D0F74C0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 22";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	F1BDF02810D0F74C0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 33";
+		rLen = 0;
+		rLoc = 825;
+		rType = 0;
+		vrLen = 979;
+		vrLoc = 599;
+	};
+	F1BDF02910D0F74C0078F6C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 33";
+		rLen = 0;
+		rLoc = 832;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 599;
+	};
+}

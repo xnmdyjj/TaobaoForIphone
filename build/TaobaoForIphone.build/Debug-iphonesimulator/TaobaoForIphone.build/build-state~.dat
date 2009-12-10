@@ -1,0 +1,1322 @@
+TTaobaoForIphone
+v7
+r0
+t282127512.263459
+cCheck dependencies
+cProcessInfoPlistFile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist TaobaoForIphone-Info.plist
+cCompileXIB /Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/TaobaoForIphone.app/README Classes/README
+cProcessPCH /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch.gch TaobaoForIphone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/main.o /Users/cybercom/Documents/TaobaoForIphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSString+SBJSON.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJSON.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonBase.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonParser.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonWriter.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/Item.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetRequest.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ListUrlResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/UrlResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiException.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004B14B5C700000000000000EE
+t1259648455
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.h
+c000000004B1F3E1C0000000000001EE1
+t1260338716
+s7905
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m
+c000000004B1F68650000000000001078
+t1260349541
+s4216
+i"ApiConstants.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.h
+c000000004B1372260000000000000106
+t1259565606
+s262
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m
+c000000004B2063920000000000000231
+t1260413842
+s561
+i"ErrorCode.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/JSON.h
+c000000004A748DD200000000000008F9
+t1249152466
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.h
+c000000004A748DD20000000000000A01
+t1249152466
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.m
+c000000004AAB9B07000000000000089E
+t1252760327
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.h
+c000000004A748DD20000000000000916
+t1249152466
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.m
+c000000004AAB9B07000000000000087D
+t1252760327
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.h
+c000000004A748DD20000000000000AED
+t1249152466
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.m
+c000000004A748DD20000000000001ABC
+t1249152466
+s6844
+i"SBJSON.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.h
+c000000004A748DD20000000000000B82
+t1249152466
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.m
+c000000004A748DD20000000000000AC1
+t1249152466
+s2753
+i"SBJsonBase.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.h
+c000000004A748DD20000000000000C0B
+t1249152466
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.m
+c000000004A748DD200000000000036CF
+t1249152466
+s14031
+i"SBJsonParser.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.h
+c000000004A748DD20000000000001140
+t1249152466
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.m
+c000000004A748DD20000000000001E83
+t1249152466
+s7811
+i"SBJsonWriter.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/README
+c000000004B134D010000000000000021
+t1259556097
+s33
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.h
+c000000004B1349930000000000000032
+t1259555219
+s50
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m
+c000000004B138CDC0000000000000048
+t1259572444
+s72
+i"TaobaoApiException.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.h
+c000000004B13700200000000000000BF
+t1259565058
+s191
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m
+c000000004B13708000000000000001AA
+t1259565184
+s426
+i"TaobaoApiMethod.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.h
+c000000004B20B15300000000000001EC
+t1260433747
+s492
+i<UIKit/UIKit.h>
+i"TaobaoViewController.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m
+c000000004B20B1EC00000000000002ED
+t1260433900
+s749
+i"TaobaoForIphoneAppDelegate.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.h
+c000000004B1F3BDA0000000000000A24
+t1260338138
+s2596
+i"TaobaoUrlFetch.h"
+i"TaobaoUrlFetchDelegate.h"
+i"TaobaoRestClient.h"
+i"TaobaoJsonRestClientDelegate.h"
+i"ItemsGetRequest.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m
+c000000004B208A6C0000000000002E45
+t1260423788
+s11845
+i"TaobaoJsonRestClient.h"
+i"ApiConstants.h"
+i"TaobaoApiMethod.h"
+i"UrlResponse.h"
+i"ItemsGetResponse.h"
+i"JSON.h"
+i"TaobaoItemJSONConvert.h"
+i"DateUtil.h"
+i"EncryptUtil.h"
+i"JSONObject.h"
+i"JSONArray.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClientDelegate.h
+c000000004B2083570000000000000104
+t1260421975
+s260
+i"ItemsGetResponse.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoPrivateApi.h
+c000000004B1356D70000000000000022
+t1259558615
+s34
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoPublicApi.h
+c000000004B1356CC0000000000000021
+t1259558604
+s33
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoRestClient.h
+c000000004B1F3ECF00000000000000CF
+t1260338895
+s207
+i"TaobaoPublicApi.h"
+i"TaobaoPrivateApi.h"
+i"ItemsGetRequest.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.h
+c000000004B1F704A0000000000000260
+t1260351562
+s608
+i"TaobaoUrlFetchDelegate.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m
+c000000004B2080BB0000000000000D68
+t1260421307
+s3432
+i"TaobaoUrlFetch.h"
+i"FetchUtil.h"
+i"ApiConstants.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetchDelegate.h
+c000000004B207E7700000000000000F9
+t1260420727
+s249
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.h
+c000000004B20B5080000000000000259
+t1260434696
+s601
+i<UIKit/UIKit.h>
+i"TaobaoJsonRestClient.h"
+i"TaobaoJsonRestClientDelegate.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m
+c000000004B20B5020000000000000673
+t1260434690
+s1651
+i"TaobaoViewController.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.h
+c000000004B1F340D0000000000000167
+t1260336141
+s359
+i"JSONObject.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m
+c000000004B2088F700000000000003C8
+t1260423415
+s968
+i"JSONArray.h"
+i"JSON.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.h
+c000000004B20890C00000000000001A9
+t1260423436
+s425
+i"JSONArray.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m
+c000000004B208A1900000000000006C7
+t1260423705
+s1735
+i"JSONObject.h"
+i"JSON.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.h
+c000000004B2087D700000000000000E6
+t1260423127
+s230
+i"JSONObject.h"
+i"JSONArray.h"
+i"Item.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m
+c000000004B1F364B00000000000003B3
+t1260336715
+s947
+i"TaobaoItemJSONConvert.h"
+i"ApiConstants.h"
+i"Item.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.h
+c000000004B136573000000000000013D
+t1259562355
+s317
+i"TaobaoModel.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.m
+c000000004B1F393C00000000000000FF
+t1260337468
+s255
+i"Item.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.h
+c000000004B1F58B8000000000000012F
+t1260345528
+s303
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m
+c000000004B1F58A900000000000000DA
+t1260345513
+s218
+i"ItemsGetRequest.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.h
+c000000004B13499300000000000000BA
+t1259555219
+s186
+i"ListUrlResponse.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m
+c000000004B205CB400000000000000F0
+t1260412084
+s240
+i"ItemsGetResponse.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.h
+c000000004B1F36890000000000000093
+t1260336777
+s147
+i"UrlResponse.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m
+c000000004B205CF200000000000000DC
+t1260412146
+s220
+i"ListUrlResponse.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.h
+c000000004B138AB500000000000000A4
+t1259571893
+s164
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m
+c000000004B1F36F70000000000000125
+t1260336887
+s293
+i"TaobaoModel.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.h
+c000000004B1F3B3B000000000000027D
+t1260337979
+s637
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m
+c000000004B1F3B6E0000000000000448
+t1260338030
+s1096
+i"UrlResponse.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib
+c000000004B20B08B0000000000001F7B
+t1260433547
+s8059
+
+N/Users/cybercom/Documents/TaobaoForIphone/TaobaoForIphone_Prefix.pch
+c000000004B20B08B00000000000000C7
+t1260433547
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app
+t2
+s0
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM
+t2
+s0
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist
+t1260434709
+s602
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/MainWindow.nib
+t1260434710
+s1353
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/PkgInfo
+t1260434709
+s8
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/README
+t1260434709
+s33
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone
+t2
+s0
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o
+t1260434711
+s17524
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o
+t1260434711
+s10312
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/Item.o
+t1260434711
+s11248
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetRequest.o
+t1260434712
+s10364
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o
+t1260434712
+s9048
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o
+t1260434711
+s12144
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o
+t1260434711
+s13872
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ListUrlResponse.o
+t1260434712
+s8576
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSObject+SBJSON.o
+t1260434711
+s7764
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSString+SBJSON.o
+t1260434711
+s7784
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJSON.o
+t1260434711
+s16788
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonBase.o
+t1260434711
+s12128
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonParser.o
+t1260434711
+s29852
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonWriter.o
+t1260434711
+s22064
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiException.o
+t1260434712
+s4952
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o
+t1260434712
+s9100
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphone.LinkFileList
+c000000004B20B5150000000000000E18
+t1260434709
+s3608
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o
+t1260434711
+s39228
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o
+t1260434711
+s9712
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o
+t2
+s0
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o
+t1260434712
+s9216
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o
+t2
+s0
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o
+t1260434711
+s33480
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/UrlResponse.o
+t1260434712
+s13488
+
+N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/main.o
+t1260434711
+s5964
+
+N/Users/cybercom/Documents/TaobaoForIphone/main.m
+c000000004B20B08B000000000000016E
+t1260433547
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch.gch
+t1260434711
+s13034960
+
+NTaobaoForIphone-Info.plist
+c000000004B20B08B000000000000038D
+t1260433547
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies282127509#282127509#0(0"0(0#1#0"28710924367954020#0"0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.788370
+e282127511.840330
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m282127511#282127511#0(0"0(0#0#64"/Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m4300885448#2076"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.915039
+e282127511.969709
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m282127511#282127511#0(0"0(0#0#61"/Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m4300885448#2070"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/Item.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.935959
+e282127511.993443
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/Item.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.m282127511#282127511#0(0"0(0#0#62"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.m4300885448#2066"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/Item.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/Item.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetRequest.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.969802
+e282127512.027632
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetRequest.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m282127511#282127512#0(0"0(0#0#73"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m4300885448#2088"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetRequest.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.993540
+e282127512.052376
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m282127511#282127512#0(0"0(0#0#74"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m4300885448#2090"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.819327
+e282127511.885022
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m282127511#282127511#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m4300885448#2078"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.840426
+e282127511.914945
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m282127511#282127511#0(0"0(0#0#70"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ListUrlResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127512.027725
+e282127512.084215
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ListUrlResponse.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m282127512#282127512#0(0"0(0#0#73"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m4300885448#2088"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ListUrlResponse.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.554240
+e282127511.618932
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.m282127511#282127511#0(0"0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.m4300885448#2087"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSObject+SBJSON.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSString+SBJSON.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.592076
+e282127511.639721
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.m282127511#282127511#0(0"0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.m4300885448#2087"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/NSString+SBJSON.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJSON.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.619028
+e282127511.694219
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJSON.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.m282127511#282127511#0(0"0(0#0#63"/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.m4300885448#2069"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJSON.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonBase.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.639811
+e282127511.701254
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonBase.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.m282127511#282127511#0(0"0(0#0#67"/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.m4300885448#2077"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonBase.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonParser.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.694307
+e282127511.819235
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonParser.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.m282127511#282127511#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.m4300885448#2081"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonParser.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonWriter.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.701332
+e282127511.788154
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.m282127511#282127511#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.m4300885448#2081"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/SBJsonWriter.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiException.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127512.101994
+e282127512.143057
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiException.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m282127512#282127512#0(0"0(0#0#70"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m4300885448#2088"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiException.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127512.142076
+e282127512.199019
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m282127512#282127512#0(0"0(0#0#67"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m4300885448#2082"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.419418
+e282127511.554152
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m282127511#282127511#0(0"0(0#0#78"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m4300885448#2104"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.885122
+e282127511.935863
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m282127511#282127511#0(0"0(0#0#81"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m4300885448#2102"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127512.143122
+e282127512.256661
+r0
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:8:21: error: DateUtil.h: No such file or directory
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:9:24: error: EncryptUtil.h: No such file or directory
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m: In function '-[TaobaoJsonRestClient getTimestamp]':
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:252: error: 'DateUtil' undeclared (first use in this function)
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:252: error: (Each undeclared identifier is reported only once
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:252: error: for each function it appears in.)
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:253: warning: control reaches end of non-void function
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m: In function '-[TaobaoJsonRestClient getTemplateRequest:andSession:andParams:]':
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:276: error: 'DateUtil' undeclared (first use in this function)
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:282: error: 'EncryptUtil' undeclared (first use in this function)
+o{standard input}:1482:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000016$pb"
+o{standard input}:1482:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:1475:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000016$pb"
+o{standard input}:1475:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:1468:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000016$pb"
+o{standard input}:1468:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:1465:non-relocatable subtraction expression, "L_TOTALRESULTS$non_lazy_ptr" minus "L00000000016$pb"
+o{standard input}:1465:symbol: "L_TOTALRESULTS$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1455:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000016$pb"
+o{standard input}:1455:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:1452:non-relocatable subtraction expression, "L_TOTALRESULTS$non_lazy_ptr" minus "L00000000016$pb"
+o{standard input}:1452:symbol: "L_TOTALRESULTS$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1421:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000015$pb"
+o{standard input}:1421:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:1413:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000015$pb"
+o{standard input}:1413:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:1405:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000015$pb"
+o{standard input}:1405:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:1402:non-relocatable subtraction expression, "L_ERROR_MSG$non_lazy_ptr" minus "L00000000015$pb"
+o{standard input}:1402:symbol: "L_ERROR_MSG$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1394:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000015$pb"
+o{standard input}:1394:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:1386:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000015$pb"
+o{standard input}:1386:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:1383:non-relocatable subtraction expression, "L_ERROR_CODE$non_lazy_ptr" minus "L00000000015$pb"
+o{standard input}:1383:symbol: "L_ERROR_CODE$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1374:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000015$pb"
+o{standard input}:1374:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:1367:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000015$pb"
+o{standard input}:1367:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:1364:non-relocatable subtraction expression, "L_ERROR_RSP$non_lazy_ptr" minus "L00000000015$pb"
+o{standard input}:1364:symbol: "L_ERROR_RSP$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1357:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000015$pb"
+o{standard input}:1357:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1354:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000015$pb"
+o{standard input}:1354:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1344:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000015$pb"
+o{standard input}:1344:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:1341:non-relocatable subtraction expression, "L_ERROR_RSP$non_lazy_ptr" minus "L00000000015$pb"
+o{standard input}:1341:symbol: "L_ERROR_RSP$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1309:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000014$pb"
+o{standard input}:1309:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1299:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000014$pb"
+o{standard input}:1299:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1296:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000014$pb"
+o{standard input}:1296:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1290:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000014$pb"
+o{standard input}:1290:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1287:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000014$pb"
+o{standard input}:1287:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1277:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000014$pb"
+o{standard input}:1277:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1274:non-relocatable subtraction expression, "L_TIMESTAMP$non_lazy_ptr" minus "L00000000014$pb"
+o{standard input}:1274:symbol: "L_TIMESTAMP$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1268:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000014$pb"
+o{standard input}:1268:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1265:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000014$pb"
+o{standard input}:1265:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1257:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000014$pb"
+o{standard input}:1257:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:1254:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000014$pb"
+o{standard input}:1254:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1244:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000014$pb"
+o{standard input}:1244:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1241:non-relocatable subtraction expression, "L_SIP_TIMESTAMP$non_lazy_ptr" minus "L00000000014$pb"
+o{standard input}:1241:symbol: "L_SIP_TIMESTAMP$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1235:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000014$pb"
+o{standard input}:1235:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1232:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000014$pb"
+o{standard input}:1232:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1224:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000014$pb"
+o{standard input}:1224:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:1221:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000014$pb"
+o{standard input}:1221:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000013$pb"
+o{standard input}:1192:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1182:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000013$pb"
+o{standard input}:1182:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1179:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000013$pb"
+o{standard input}:1179:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1173:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000013$pb"
+o{standard input}:1173:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1170:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000013$pb"
+o{standard input}:1170:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000013$pb"
+o{standard input}:1160:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1157:non-relocatable subtraction expression, "L_SESSION$non_lazy_ptr" minus "L00000000013$pb"
+o{standard input}:1157:symbol: "L_SESSION$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1151:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000013$pb"
+o{standard input}:1151:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1148:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000013$pb"
+o{standard input}:1148:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1140:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000013$pb"
+o{standard input}:1140:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:1137:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000013$pb"
+o{standard input}:1137:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000013$pb"
+o{standard input}:1127:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1124:non-relocatable subtraction expression, "L_SIP_SESSIONID$non_lazy_ptr" minus "L00000000013$pb"
+o{standard input}:1124:symbol: "L_SIP_SESSIONID$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000013$pb"
+o{standard input}:1118:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1115:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000013$pb"
+o{standard input}:1115:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1107:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000013$pb"
+o{standard input}:1107:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:1104:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000013$pb"
+o{standard input}:1104:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1075:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000012$pb"
+o{standard input}:1075:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1065:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000012$pb"
+o{standard input}:1065:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1062:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000012$pb"
+o{standard input}:1062:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1056:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000012$pb"
+o{standard input}:1056:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1053:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000012$pb"
+o{standard input}:1053:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1043:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000012$pb"
+o{standard input}:1043:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1040:non-relocatable subtraction expression, "L_SIGN$non_lazy_ptr" minus "L00000000012$pb"
+o{standard input}:1040:symbol: "L_SIGN$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1034:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000012$pb"
+o{standard input}:1034:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1031:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000012$pb"
+o{standard input}:1031:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1023:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000012$pb"
+o{standard input}:1023:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:1020:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000012$pb"
+o{standard input}:1020:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1010:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000012$pb"
+o{standard input}:1010:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:1007:non-relocatable subtraction expression, "L_SIP_SIGN$non_lazy_ptr" minus "L00000000012$pb"
+o{standard input}:1007:symbol: "L_SIP_SIGN$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1001:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000012$pb"
+o{standard input}:1001:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:998:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000012$pb"
+o{standard input}:998:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:990:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000012$pb"
+o{standard input}:990:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:987:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000012$pb"
+o{standard input}:987:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:958:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000011$pb"
+o{standard input}:958:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:948:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000011$pb"
+o{standard input}:948:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:945:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000011$pb"
+o{standard input}:945:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:939:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"
+o{standard input}:939:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:936:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000011$pb"
+o{standard input}:936:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:926:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000011$pb"
+o{standard input}:926:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:923:non-relocatable subtraction expression, "L_METHOD$non_lazy_ptr" minus "L00000000011$pb"
+o{standard input}:923:symbol: "L_METHOD$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:917:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"
+o{standard input}:917:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:914:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000011$pb"
+o{standard input}:914:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:906:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000011$pb"
+o{standard input}:906:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:903:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000011$pb"
+o{standard input}:903:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:893:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000011$pb"
+o{standard input}:893:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:890:non-relocatable subtraction expression, "L_SIP_APINAME$non_lazy_ptr" minus "L00000000011$pb"
+o{standard input}:890:symbol: "L_SIP_APINAME$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:884:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"
+o{standard input}:884:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:881:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000011$pb"
+o{standard input}:881:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:873:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000011$pb"
+o{standard input}:873:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:870:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000011$pb"
+o{standard input}:870:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:841:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000010$pb"
+o{standard input}:841:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:831:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000010$pb"
+o{standard input}:831:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:828:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000010$pb"
+o{standard input}:828:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:822:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000010$pb"
+o{standard input}:822:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:819:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000010$pb"
+o{standard input}:819:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:809:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000010$pb"
+o{standard input}:809:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:806:non-relocatable subtraction expression, "L_APIKEY$non_lazy_ptr" minus "L00000000010$pb"
+o{standard input}:806:symbol: "L_APIKEY$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:800:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000010$pb"
+o{standard input}:800:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:797:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000010$pb"
+o{standard input}:797:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:789:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000010$pb"
+o{standard input}:789:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:786:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000010$pb"
+o{standard input}:786:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:776:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000010$pb"
+o{standard input}:776:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:773:non-relocatable subtraction expression, "L_SIP_APPKEY$non_lazy_ptr" minus "L00000000010$pb"
+o{standard input}:773:symbol: "L_SIP_APPKEY$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:767:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000010$pb"
+o{standard input}:767:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:764:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000010$pb"
+o{standard input}:764:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:756:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000010$pb"
+o{standard input}:756:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:753:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000010$pb"
+o{standard input}:753:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:725:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000009$pb"
+o{standard input}:725:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:722:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000009$pb"
+o{standard input}:722:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:715:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000009$pb"
+o{standard input}:715:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:712:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000009$pb"
+o{standard input}:712:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:684:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"
+o{standard input}:684:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:681:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000008$pb"
+o{standard input}:681:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:674:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000008$pb"
+o{standard input}:674:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:671:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000008$pb"
+o{standard input}:671:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:641:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000007$pb"
+o{standard input}:641:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:632:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000007$pb"
+o{standard input}:632:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:621:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000007$pb"
+o{standard input}:621:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:610:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000007$pb"
+o{standard input}:610:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:603:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000007$pb"
+o{standard input}:603:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:597:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000007$pb"
+o{standard input}:597:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:594:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000007$pb"
+o{standard input}:594:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:586:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000007$pb"
+o{standard input}:586:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:577:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000007$pb"
+o{standard input}:577:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:568:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000007$pb"
+o{standard input}:568:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:559:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000007$pb"
+o{standard input}:559:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:546:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000007$pb"
+o{standard input}:546:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:542:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000007$pb"
+o{standard input}:542:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression
+o{standard input}:495:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000006$pb"
+o{standard input}:495:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:492:non-relocatable subtraction expression, "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:492:symbol: "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:479:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000006$pb"
+o{standard input}:479:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:475:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000006$pb"
+o{standard input}:475:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression
+o{standard input}:427:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000005$pb"
+o{standard input}:427:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:424:non-relocatable subtraction expression, "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:424:symbol: "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:410:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000005$pb"
+o{standard input}:410:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:406:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000005$pb"
+o{standard input}:406:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression
+o{standard input}:356:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000004$pb"
+o{standard input}:356:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:353:non-relocatable subtraction expression, "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:353:symbol: "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:340:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"
+o{standard input}:340:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:336:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000004$pb"
+o{standard input}:336:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression
+o{standard input}:288:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:288:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:275:non-relocatable subtraction expression, "L_API_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:275:symbol: "L_API_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:269:non-relocatable subtraction expression, "L_SIP_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:269:symbol: "L_SIP_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:258:non-relocatable subtraction expression, "L_API_SANDBOX_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:258:symbol: "L_API_SANDBOX_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:252:non-relocatable subtraction expression, "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:252:symbol: "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:238:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000003$pb"
+o{standard input}:238:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:234:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000003$pb"
+o{standard input}:234:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression
+o{standard input}:188:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"
+o{standard input}:188:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:179:non-relocatable subtraction expression, "L_SIP_SERVICE_URL$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:179:symbol: "L_SIP_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:173:non-relocatable subtraction expression, "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:173:symbol: "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:154:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000002$pb"
+o{standard input}:154:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression
+o{standard input}:110:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:110:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:100:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:96:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000001$pb"
+o{standard input}:96:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_TaobaoJsonRestClient
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_SIP_SERVICE_URL$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_API_SANDBOX_SERVICE_URL$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_API_SERVICE_URL$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_DEFAULT_SERVICE_VERSION$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_SIP_APPKEY$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_APIKEY$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_EMPTY_STR$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_SIP_APINAME$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_METHOD$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_SIP_SIGN$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_SIGN$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_SIP_SESSIONID$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_SESSION$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_SIP_TIMESTAMP$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_TIMESTAMP$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_ERROR_RSP$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_ERROR_CODE$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+o{standard input}:unknown:Undefined local symbol L_ERROR_MSG$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27
+o{standard input}:unknown:Undefined local symbol L_TOTALRESULTS$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29
+lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282127512#282127512#0(39790"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:8:21: error: DateUtil.h: No such file or directory/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:9:24: error: EncryptUtil.h: No such file or directory/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m: In function '-[TaobaoJsonRestClient getTimestamp]':/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:252: error: 'DateUtil' undeclared (first use in this function)/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:252: error: (Each undeclared identifier is reported only once/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:252: error: for each function it appears in.)/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:253: warning: control reaches end of non-void function/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m: In function '-[TaobaoJsonRestClient getTemplateRequest:andSession:andParams:]':/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:276: error: 'DateUtil' undeclared (first use in this function)/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m:282: error: 'EncryptUtil' undeclared (first use in this function){standard input}:1482:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000016$pb"{standard input}:1482:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:1475:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000016$pb"{standard input}:1475:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:1468:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000016$pb"{standard input}:1468:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:1465:non-relocatable subtraction expression, "L_TOTALRESULTS$non_lazy_ptr" minus "L00000000016$pb"{standard input}:1465:symbol: "L_TOTALRESULTS$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1455:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000016$pb"{standard input}:1455:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:1452:non-relocatable subtraction expression, "L_TOTALRESULTS$non_lazy_ptr" minus "L00000000016$pb"{standard input}:1452:symbol: "L_TOTALRESULTS$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1421:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000015$pb"{standard input}:1421:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:1413:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000015$pb"{standard input}:1413:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:1405:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000015$pb"{standard input}:1405:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:1402:non-relocatable subtraction expression, "L_ERROR_MSG$non_lazy_ptr" minus "L00000000015$pb"{standard input}:1402:symbol: "L_ERROR_MSG$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1394:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000015$pb"{standard input}:1394:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:1386:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000015$pb"{standard input}:1386:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:1383:non-relocatable subtraction expression, "L_ERROR_CODE$non_lazy_ptr" minus "L00000000015$pb"{standard input}:1383:symbol: "L_ERROR_CODE$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1374:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000015$pb"{standard input}:1374:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:1367:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000015$pb"{standard input}:1367:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:1364:non-relocatable subtraction expression, "L_ERROR_RSP$non_lazy_ptr" minus "L00000000015$pb"{standard input}:1364:symbol: "L_ERROR_RSP$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1357:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000015$pb"{standard input}:1357:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1354:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000015$pb"{standard input}:1354:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1344:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000015$pb"{standard input}:1344:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:1341:non-relocatable subtraction expression, "L_ERROR_RSP$non_lazy_ptr" minus "L00000000015$pb"{standard input}:1341:symbol: "L_ERROR_RSP$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1309:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000014$pb"{standard input}:1309:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1299:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000014$pb"{standard input}:1299:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1296:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000014$pb"{standard input}:1296:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1290:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000014$pb"{standard input}:1290:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1287:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000014$pb"{standard input}:1287:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1277:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000014$pb"{standard input}:1277:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1274:non-relocatable subtraction expression, "L_TIMESTAMP$non_lazy_ptr" minus "L00000000014$pb"{standard input}:1274:symbol: "L_TIMESTAMP$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1268:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000014$pb"{standard input}:1268:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1265:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000014$pb"{standard input}:1265:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1257:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000014$pb"{standard input}:1257:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:1254:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000014$pb"{standard input}:1254:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1244:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000014$pb"{standard input}:1244:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1241:non-relocatable subtraction expression, "L_SIP_TIMESTAMP$non_lazy_ptr" minus "L00000000014$pb"{standard input}:1241:symbol: "L_SIP_TIMESTAMP$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1235:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000014$pb"{standard input}:1235:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1232:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000014$pb"{standard input}:1232:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1224:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000014$pb"{standard input}:1224:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:1221:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000014$pb"{standard input}:1221:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000013$pb"{standard input}:1192:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1182:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000013$pb"{standard input}:1182:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1179:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000013$pb"{standard input}:1179:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1173:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000013$pb"{standard input}:1173:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1170:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000013$pb"{standard input}:1170:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000013$pb"{standard input}:1160:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1157:non-relocatable subtraction expression, "L_SESSION$non_lazy_ptr" minus "L00000000013$pb"{standard input}:1157:symbol: "L_SESSION$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1151:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000013$pb"{standard input}:1151:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1148:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000013$pb"{standard input}:1148:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1140:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000013$pb"{standard input}:1140:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:1137:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000013$pb"{standard input}:1137:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000013$pb"{standard input}:1127:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1124:non-relocatable subtraction expression, "L_SIP_SESSIONID$non_lazy_ptr" minus "L00000000013$pb"{standard input}:1124:symbol: "L_SIP_SESSIONID$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000013$pb"{standard input}:1118:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1115:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000013$pb"{standard input}:1115:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1107:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000013$pb"{standard input}:1107:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:1104:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000013$pb"{standard input}:1104:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1075:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000012$pb"{standard input}:1075:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1065:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000012$pb"{standard input}:1065:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1062:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000012$pb"{standard input}:1062:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1056:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000012$pb"{standard input}:1056:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1053:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000012$pb"{standard input}:1053:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1043:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000012$pb"{standard input}:1043:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1040:non-relocatable subtraction expression, "L_SIGN$non_lazy_ptr" minus "L00000000012$pb"{standard input}:1040:symbol: "L_SIGN$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1034:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000012$pb"{standard input}:1034:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1031:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000012$pb"{standard input}:1031:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1023:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000012$pb"{standard input}:1023:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:1020:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000012$pb"{standard input}:1020:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1010:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000012$pb"{standard input}:1010:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:1007:non-relocatable subtraction expression, "L_SIP_SIGN$non_lazy_ptr" minus "L00000000012$pb"{standard input}:1007:symbol: "L_SIP_SIGN$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1001:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000012$pb"{standard input}:1001:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:998:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000012$pb"{standard input}:998:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:990:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000012$pb"{standard input}:990:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:987:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000012$pb"{standard input}:987:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:958:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000011$pb"{standard input}:958:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:948:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000011$pb"{standard input}:948:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:945:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000011$pb"{standard input}:945:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:939:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"{standard input}:939:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:936:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000011$pb"{standard input}:936:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:926:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000011$pb"{standard input}:926:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:923:non-relocatable subtraction expression, "L_METHOD$non_lazy_ptr" minus "L00000000011$pb"{standard input}:923:symbol: "L_METHOD$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:917:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"{standard input}:917:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:914:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000011$pb"{standard input}:914:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:906:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000011$pb"{standard input}:906:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:903:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000011$pb"{standard input}:903:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:893:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000011$pb"{standard input}:893:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:890:non-relocatable subtraction expression, "L_SIP_APINAME$non_lazy_ptr" minus "L00000000011$pb"{standard input}:890:symbol: "L_SIP_APINAME$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:884:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"{standard input}:884:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:881:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000011$pb"{standard input}:881:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:873:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000011$pb"{standard input}:873:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:870:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000011$pb"{standard input}:870:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:841:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000010$pb"{standard input}:841:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:831:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000010$pb"{standard input}:831:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:828:non-relocatable subtraction expression, "L_EMPTY_STR$non_lazy_ptr" minus "L00000000010$pb"{standard input}:828:symbol: "L_EMPTY_STR$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:822:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000010$pb"{standard input}:822:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:819:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000010$pb"{standard input}:819:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:809:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000010$pb"{standard input}:809:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:806:non-relocatable subtraction expression, "L_APIKEY$non_lazy_ptr" minus "L00000000010$pb"{standard input}:806:symbol: "L_APIKEY$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:800:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000010$pb"{standard input}:800:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:797:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000010$pb"{standard input}:797:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:789:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000010$pb"{standard input}:789:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:786:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000010$pb"{standard input}:786:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:776:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000010$pb"{standard input}:776:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:773:non-relocatable subtraction expression, "L_SIP_APPKEY$non_lazy_ptr" minus "L00000000010$pb"{standard input}:773:symbol: "L_SIP_APPKEY$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:767:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000010$pb"{standard input}:767:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:764:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000010$pb"{standard input}:764:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:756:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000010$pb"{standard input}:756:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:753:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000010$pb"{standard input}:753:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:725:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000009$pb"{standard input}:725:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:722:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000009$pb"{standard input}:722:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:715:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000009$pb"{standard input}:715:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:712:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000009$pb"{standard input}:712:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:684:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"{standard input}:684:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:681:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000008$pb"{standard input}:681:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:674:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000008$pb"{standard input}:674:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:671:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000008$pb"{standard input}:671:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:641:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000007$pb"{standard input}:641:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:632:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000007$pb"{standard input}:632:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:621:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000007$pb"{standard input}:621:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:610:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000007$pb"{standard input}:610:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:603:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000007$pb"{standard input}:603:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:597:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000007$pb"{standard input}:597:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:594:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000007$pb"{standard input}:594:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:586:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000007$pb"{standard input}:586:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:577:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000007$pb"{standard input}:577:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:568:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000007$pb"{standard input}:568:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:559:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000007$pb"{standard input}:559:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:546:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000007$pb"{standard input}:546:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:542:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000007$pb"{standard input}:542:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression{standard input}:495:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000006$pb"{standard input}:495:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:492:non-relocatable subtraction expression, "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" minus "L00000000006$pb"{standard input}:492:symbol: "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:479:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000006$pb"{standard input}:479:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:475:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000006$pb"{standard input}:475:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression{standard input}:427:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000005$pb"{standard input}:427:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:424:non-relocatable subtraction expression, "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" minus "L00000000005$pb"{standard input}:424:symbol: "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:410:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000005$pb"{standard input}:410:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:406:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000005$pb"{standard input}:406:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression{standard input}:356:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000004$pb"{standard input}:356:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:353:non-relocatable subtraction expression, "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" minus "L00000000004$pb"{standard input}:353:symbol: "L_DEFAULT_SERVICE_VERSION$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:340:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"{standard input}:340:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:336:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000004$pb"{standard input}:336:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression{standard input}:288:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:288:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:275:non-relocatable subtraction expression, "L_API_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"{standard input}:275:symbol: "L_API_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:269:non-relocatable subtraction expression, "L_SIP_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"{standard input}:269:symbol: "L_SIP_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:258:non-relocatable subtraction expression, "L_API_SANDBOX_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"{standard input}:258:symbol: "L_API_SANDBOX_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:252:non-relocatable subtraction expression, "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" minus "L00000000003$pb"{standard input}:252:symbol: "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:238:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000003$pb"{standard input}:238:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:234:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000003$pb"{standard input}:234:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression{standard input}:188:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"{standard input}:188:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:179:non-relocatable subtraction expression, "L_SIP_SERVICE_URL$non_lazy_ptr" minus "L00000000002$pb"{standard input}:179:symbol: "L_SIP_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:173:non-relocatable subtraction expression, "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" minus "L00000000002$pb"{standard input}:173:symbol: "L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:154:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000002$pb"{standard input}:154:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression{standard input}:110:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:110:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:100:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:96:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoJsonRestClient" minus "L00000000001$pb"{standard input}:96:symbol: "L_OBJC_CLASS_TaobaoJsonRestClient" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_TaobaoJsonRestClient{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_SIP_SANDBOX_SERVICE_URL$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_SIP_SERVICE_URL$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_API_SANDBOX_SERVICE_URL$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_API_SERVICE_URL$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_DEFAULT_SERVICE_VERSION$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2{standard input}:unknown:Undefined local symbol L_SIP_APPKEY$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_APIKEY$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_EMPTY_STR$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_SIP_APINAME$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_METHOD$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_SIP_SIGN$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_SIGN$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_SIP_SESSIONID$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_SESSION$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_SIP_TIMESTAMP$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_TIMESTAMP$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_ERROR_RSP$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_ERROR_CODE$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25{standard input}:unknown:Undefined local symbol L_ERROR_MSG$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27{standard input}:unknown:Undefined local symbol L_TOTALRESULTS$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_296(4@37"DateUtil.h: No such file or directory282127512#0#124#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282116588#8#0#8#0#28"*: No such file or directory0(4@40"EncryptUtil.h: No such file or directory282127512#124#127#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282116588#9#0#9#0#28"*: No such file or directory0(4@50"'DateUtil' undeclared (first use in this function)282127512#377#136#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282116588#252#0#252#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function282127512#767#128#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282116588#253#0#253#0#40"control reaches end of non-void function0(4@50"'DateUtil' undeclared (first use in this function)282127512#1049#136#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282116588#276#0#276#0#43"'*' undeclared (first use in this function)0(4@53"'EncryptUtil' undeclared (first use in this function)282127512#1185#139#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282116588#282#0#282#0#43"'*' undeclared (first use in this function)0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m4300885448#2092"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o1#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127512.052468
+e282127512.101897
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m282127512#282127512#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127512.199112
+e282127512.263374
+r0
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:2:22: error: FetchUtil.h: No such file or directory
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m: In function '-[TaobaoUrlFetch fetchWithUrl:andPayload:andMethod:andSelector:]':
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:25: error: 'FetchUtil' undeclared (first use in this function)
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:25: error: (Each undeclared identifier is reported only once
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:25: error: for each function it appears in.)
+o{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:75:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:75:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:67:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:67:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:57:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:57:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:53:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoUrlFetch" minus "L00000000001$pb"
+o{standard input}:53:symbol: "L_OBJC_CLASS_TaobaoUrlFetch" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_TaobaoUrlFetch
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+lSLF07#2@74"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m282127512#282127512#0(2124"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:2:22: error: FetchUtil.h: No such file or directory/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m: In function '-[TaobaoUrlFetch fetchWithUrl:andPayload:andMethod:andSelector:]':/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:25: error: 'FetchUtil' undeclared (first use in this function)/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:25: error: (Each undeclared identifier is reported only once/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m:25: error: for each function it appears in.){standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:75:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:75:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:67:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:67:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:57:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:57:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:53:non-relocatable subtraction expression, "L_OBJC_CLASS_TaobaoUrlFetch" minus "L00000000001$pb"{standard input}:53:symbol: "L_OBJC_CLASS_TaobaoUrlFetch" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_TaobaoUrlFetch{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_32(4@38"FetchUtil.h: No such file or directory282127512#0#119#0(6@66"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m282114107#2#0#2#0#28"*: No such file or directory0(4@51"'FetchUtil' undeclared (first use in this function)282127512#267#130#0(6@66"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m282114107#25#0#25#0#43"'*' undeclared (first use in this function)0(0#0#66"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o1#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.533703
+e282127511.591988
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'itemsGetButton' requires method '-itemsGetButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'itemsGetButton' requires the method 'setItemsGetButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'taobaoClient' requires method '-taobaoClient' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'taobaoClient' requires the method 'setTaobaoClient:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m282127511#282127511#0(898"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'itemsGetButton' requires method '-itemsGetButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'itemsGetButton' requires the method 'setItemsGetButton:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'taobaoClient' requires method '-taobaoClient' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m:67: warning: property 'taobaoClient' requires the method 'setTaobaoClient:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@136"Property 'itemsGetButton' requires method '-itemsGetButton' to be defined - use @synthesize, @dynamic or provide a method implementation282127511#0#223#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m282127490#67#0#67#0#0"0(22@143"Property 'itemsGetButton' requires the method 'setItemsGetButton:' to be defined - use @synthesize, @dynamic or provide a method implementation282127511#223#230#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m282127490#67#0#67#0#0"0(22@132"Property 'taobaoClient' requires method '-taobaoClient' to be defined - use @synthesize, @dynamic or provide a method implementation282127511#453#219#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m282127490#67#0#67#0#0"0(22@139"Property 'taobaoClient' requires the method 'setTaobaoClient:' to be defined - use @synthesize, @dynamic or provide a method implementation282127511#672#226#0(6@72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m282127490#67#0#67#0#0"0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m4300885448#2092"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/UrlResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127512.084311
+e282127512.141949
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/UrlResponse.o
+x/Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m282127512#282127512#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/UrlResponse.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/main.o /Users/cybercom/Documents/TaobaoForIphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127511.418586
+e282127511.533605
+r1
+xCompileC
+xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/main.o
+x/Users/cybercom/Documents/TaobaoForIphone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/cybercom/Documents/TaobaoForIphone/main.m282127511#282127511#0(0"0(0#0#48"/Users/cybercom/Documents/TaobaoForIphone/main.m4300885448#2052"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/main.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib
+s282127509.215203
+e282127510.646749
+r1
+xCompileXIB
+x/Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib282127509#282127510#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#56"/Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib4300885448#499"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/MainWindow.nib /Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/TaobaoForIphone.app/README Classes/README
+s282127509.215952
+e282127509.234422
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TaobaoForIphone.app/README
+xClasses/README
+lSLF07#2@19"Copy Classes/README282127509#282127509#0(0"0(0#0#56"/Users/cybercom/Documents/TaobaoForIphone/Classes/README4300885448#475"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cybercom/Documents/TaobaoForIphone/Classes/README /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app0#
+
+CGenerateDSYMFile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone
+r0
+
+CLd /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone normal i386
+r0
+
+CProcessInfoPlistFile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist TaobaoForIphone-Info.plist
+s282127509.184859
+e282127509.215121
+r1
+xProcessInfoPlistFile
+x/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist
+xTaobaoForIphone-Info.plist
+lSLF07#2@34"Process TaobaoForIphone-Info.plist282127509#282127509#0(0"0(0#0#68"/Users/cybercom/Documents/TaobaoForIphone/TaobaoForIphone-Info.plist31244169098821704#512"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TaobaoForIphone-Info.plist -genpkginfo /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist0#
+
+CProcessPCH /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch.gch TaobaoForIphone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s282127510.646964
+e282127511.418445
+r1
+xProcessPCH
+x/var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch.gch
+xTaobaoForIphone_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile TaobaoForIphone_Prefix.pch282127510#282127511#0(0"0(0#0#68"/Users/cybercom/Documents/TaobaoForIphone/TaobaoForIphone_Prefix.pch4300885448#1933"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -c /Users/cybercom/Documents/TaobaoForIphone/TaobaoForIphone_Prefix.pch -o /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch.gch0#
+
+CTouch /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app
+r0
+

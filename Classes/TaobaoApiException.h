@@ -1,0 +1,5 @@
+@interface TaobaoApiException:NSException
+
+@end
+
+
