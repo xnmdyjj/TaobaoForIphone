@@ -5,6 +5,12 @@
 
 @synthesize dictionary;
 
+-(JSONObject *)init {
+	if (self = [super init]) {
+		self.dictionary = nil;
+	}
+	return self;
+}
 
 -(JSONObject *)initWithString:(NSString *)string {
 	if (self = [super init]) {
@@ -33,11 +39,6 @@
 	NSDictionary *dictionaryForKey;
 	JSONObject *jsonObject;
 	if (dictionaryForKey = [dictionary valueForKey:key]) {
-		/*
-		NSLog(@"key = %@", key);
-		for (NSString *test in dictionaryForKey) {
-			NSLog(@"%@ = %@", test, [dictionaryForKey valueForKey:test]);
-		}*/
 		jsonObject = [[JSONObject alloc] init];
 		jsonObject.dictionary = dictionaryForKey;
 	}
@@ -46,7 +47,6 @@
 }
 
 -(NSString *)getString:(NSString *)key {
-	NSLog(@"%@ = %@", key, [dictionary valueForKey:key]);
 	NSString *stringForKey;
 	if ([[dictionary valueForKey:key] isKindOfClass:[NSNumber class]]){
 		NSNumber *numberValue =[dictionary valueForKey:key];
@@ -55,10 +55,8 @@
 	else {
 		stringForKey = [NSString stringWithFormat:@"%@", [dictionary valueForKey:key]];
 	}
-
 	return stringForKey; 
 }
-
 
 -(JSONArray *)getJSONArray:(NSString *)key {
 	NSArray *arrayForKey;
@@ -66,6 +64,7 @@
 	if (arrayForKey = [dictionary valueForKey:key]) {
 		jsonArray = [[JSONArray alloc] initWithArray:arrayForKey];
 	}
+	[jsonArray autorelease];
 	return jsonArray;
 }
 

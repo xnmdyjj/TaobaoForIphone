@@ -21,21 +21,17 @@
 
 - (void) fetchWithUrl: (NSString *)stringUrl andPayload: (NSMutableDictionary *)payload andMethod:(NSString *)newMethod andSelector:(SEL)process {
     NSURL *url = [NSURL URLWithString:stringUrl];
-	NSLog(@"url = %@", stringUrl);
     NSString *buffer = [NSString stringWithString:[FetchUtil paramsToBuffer:payload andDelimiter:@"&" andEquals:@"="]];
-	NSLog(@"buffer = %@", buffer);
 	NSData *body = [buffer	dataUsingEncoding:NSUTF8StringEncoding];
     NSMutableURLRequest* mutableRequest = [NSMutableURLRequest requestWithURL:url];
     if ([mutableRequest valueForHTTPHeaderField:@"Content-Type"] == nil)
         [mutableRequest setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
     [mutableRequest setHTTPMethod: @"POST"];
     [mutableRequest setHTTPBody:body];
-	[mutableRequest setCachePolicy:NSURLRequestUseProtocolCachePolicy];
-	[mutableRequest setTimeoutInterval:60.0];
 
     NSURLConnection* connection = [NSURLConnection connectionWithRequest: mutableRequest delegate:self];
     if (connection) {
-		self.receivedData = [[NSMutableData data] retain];
+		self.receivedData = [[NSMutableData alloc] initWithLength:0];
 		self.method = newMethod;
 		self.methodSelectorDictionary = [NSMutableDictionary  dictionary];
 		[methodSelectorDictionary setValue:NSStringFromSelector(process) forKey:newMethod];
@@ -89,11 +85,6 @@
     // do something with the data
 
     // receivedData is declared as a method instance elsewhere
-
-	NSString *aStr = [[NSString alloc] initWithData:receivedData encoding:NSASCIIStringEncoding];
-    NSLog(@"Succeeded! Received %d bytes of data",[receivedData length]);
-	NSLog(@"receivedData = %@", aStr);
-	[aStr release];
     
     if ((delegate != nil) && [delegate respondsToSelector:@selector(taobaoUrlFetch:didRetrieveData:)]) {
         [delegate taobaoUrlFetch:self didRetrieveData:receivedData];
@@ -101,13 +92,12 @@
 
     // release the connection, and the data object
     [connection release];
-    [receivedData release];
 }
 
 - (void)dealloc
 {
-	[method release];
-	[methodSelectorDictionary release];
+	//[method release];
+	//[methodSelectorDictionary release];
     [receivedData release];
     [super dealloc];
 }

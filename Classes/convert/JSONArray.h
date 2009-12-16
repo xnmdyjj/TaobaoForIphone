@@ -7,6 +7,7 @@ NSArray *array;
 }
 @property (retain) NSArray *array;
 
+-(JSONArray *)init;
 -(JSONArray *)initWithString:(NSString *)string;
 -(JSONArray *)initWithArray: (NSArray *)newArray;
 -(JSONArray *)initWithJSONArray:(JSONArray *)jsonArray;

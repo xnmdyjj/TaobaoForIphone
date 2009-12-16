@@ -10,6 +10,8 @@ NSDictionary *dictionary;
 
 @property (retain) NSDictionary *dictionary;
 
+-(JSONObject *)init;
+
 -(JSONObject *)initWithString:(NSString *)string;
 
 -(JSONObject *)initWithJSONObject:(JSONObject *)json;

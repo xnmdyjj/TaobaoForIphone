@@ -1,7 +1,7 @@
 TTaobaoForIphone
 v7
 r0
-t282130263.576511
+t282642707.266426
 cCheck dependencies
 cProcessInfoPlistFile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist TaobaoForIphone-Info.plist
 cCompileXIB /Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib
@@ -90,10 +90,32 @@ t1259565606
 s262
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m
-c000000004B2063920000000000000231
-t1260413842
-s561
+c000000004B21DE0B0000000000000215
+t1260510731
+s533
 i"ErrorCode.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/../convert/JSONArray.m
+c000000004B2088F700000000000003C8
+t1260423415
+s968
+i"JSONArray.h"
+i"JSON.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/../convert/JSONObject.m
+c000000004B21E4F300000000000006E1
+t1260512499
+s1761
+i"JSONObject.h"
+i"JSON.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/../convert/TaobaoItemJSONConvert.m
+c000000004B1F364B00000000000003B3
+t1260336715
+s947
+i"TaobaoItemJSONConvert.h"
+i"ApiConstants.h"
+i"Item.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/JSON.h
 c000000004A748DD200000000000008F9
@@ -203,9 +225,9 @@ t1259565058
 s191
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m
-c000000004B13708000000000000001AA
-t1259565184
-s426
+c000000004B21DDF300000000000001DD
+t1260510707
+s477
 i"TaobaoApiMethod.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.h
@@ -222,8 +244,8 @@ s749
 i"TaobaoForIphoneAppDelegate.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.h
-c000000004B1F3BDA0000000000000A24
-t1260338138
+c000000004B21D3000000000000000A24
+t1260507904
 s2596
 i"TaobaoUrlFetch.h"
 i"TaobaoUrlFetchDelegate.h"
@@ -232,9 +254,9 @@ i"TaobaoJsonRestClientDelegate.h"
 i"ItemsGetRequest.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m
-c000000004B20BDC50000000000002E47
-t1260436933
-s11847
+c000000004B287AFB0000000000002EAD
+t1260944123
+s11949
 i"TaobaoJsonRestClient.h"
 i"ApiConstants.h"
 i"TaobaoApiMethod.h"
@@ -278,9 +300,9 @@ s608
 i"TaobaoUrlFetchDelegate.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m
-c000000004B2080BB0000000000000D68
-t1260421307
-s3432
+c000000004B287E3F0000000000000BCC
+t1260944959
+s3020
 i"TaobaoUrlFetch.h"
 i"FetchUtil.h"
 i"ApiConstants.h"
@@ -291,44 +313,78 @@ t1260420727
 s249
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.h
-c000000004B20BFC6000000000000021D
-t1260437446
+c000000004B2877A4000000000000021D
+t1260943268
 s541
 i<UIKit/UIKit.h>
 i"TaobaoJsonRestClient.h"
 i"TaobaoJsonRestClientDelegate.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m
-c000000004B20BFCA0000000000000C4C
-t1260437450
-s3148
+c000000004B2878090000000000000C5C
+t1260943369
+s3164
 i"TaobaoViewController.h"
 i"ItemsGetRequest.h"
 i"ItemsGetResponse.h"
 
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/DateUtil.h
+c000000004B1F5EA80000000000000077
+t1260347048
+s119
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/DateUtil.m
+c000000004B208B92000000000000027C
+t1260424082
+s636
+i"DateUtil.h"
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/EncryptUtil.h
+c000000004B1F5EF400000000000000DA
+t1260347124
+s218
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/EncryptUtil.m
+c000000004B1F39040000000000000516
+t1260337412
+s1302
+i"EncryptUtil.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/FetchUtil.h
+c000000004B1350EC00000000000000A2
+t1259557100
+s162
+
+N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/FetchUtil.m
+c000000004B1F6A2F0000000000000243
+t1260349999
+s579
+i"FetchUtil.h"
+
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.h
-c000000004B1F340D0000000000000167
-t1260336141
-s359
+c000000004B287A3C000000000000017B
+t1260943932
+s379
 i"JSONObject.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m
-c000000004B2088F700000000000003C8
-t1260423415
-s968
+c000000004B287A070000000000000421
+t1260943879
+s1057
 i"JSONArray.h"
 i"JSON.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.h
-c000000004B20890C00000000000001A9
-t1260423436
-s425
+c000000004B28794A00000000000001BF
+t1260943690
+s447
 i"JSONArray.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m
-c000000004B208A1900000000000006C7
-t1260423705
-s1735
+c000000004B287A2D0000000000000672
+t1260943917
+s1650
 i"JSONObject.h"
 i"JSON.h"
 
@@ -372,9 +428,9 @@ s218
 i"ItemsGetRequest.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.h
-c000000004B13499300000000000000BA
-t1259555219
-s186
+c000000004B21D4BF00000000000000C5
+t1260508351
+s197
 i"ListUrlResponse.h"
 
 N/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m
@@ -464,11 +520,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app
-t1260437463
+t1260949907
 s238
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM
-t1260437463
+t1260949907
 s102
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist
@@ -488,8 +544,8 @@ t1260434709
 s33
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone
-t1260437463
-s114168
+t1260949907
+s114444
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o
 t1260434711
@@ -504,8 +560,8 @@ t1260434747
 s9656
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o
-t1260434711
-s10312
+t1260510832
+s10220
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/FetchUtil.o
 t1260434747
@@ -520,16 +576,16 @@ t1260434712
 s10364
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o
-t1260434712
-s9048
+t1260508498
+s8980
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o
-t1260434711
-s12144
+t1260944087
+s12612
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o
-t1260434711
-s13872
+t1260944087
+s14216
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ListUrlResponse.o
 t1260434712
@@ -564,8 +620,8 @@ t1260434712
 s4952
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o
-t1260434712
-s9100
+t1260510832
+s9616
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphone.LinkFileList
 c000000004B20B53B0000000000000FCF
@@ -573,28 +629,28 @@ t1260434747
 s4047
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o
-t1260437463
+t1260944087
 s39228
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o
-t1260434711
+t1260944087
 s9712
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o
-t1260436934
-s44524
+t1260944560
+s44664
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o
 t1260434712
 s9216
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o
-t1260434747
-s20648
+t1260949907
+s19216
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o
-t1260437463
-s41320
+t1260944087
+s41364
 
 N/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/UrlResponse.o
 t1260434712
@@ -621,7 +677,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies282130263#282130263#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies282642706#282642706#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282127511.788370
@@ -636,6 +692,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m282127511#282127511#0(0"0(0#0#64"/Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m4300885448#2076"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o0#
 
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/DateUtil.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/DateUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/DateUtil.o /Users/cybercom/Documents/TaobaoForIphone/Classes/util/DateUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282127547.842685
 e282127547.895127
@@ -648,6 +707,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/util/DateUtil.m282127547#282127547#0(0"0(0#0#65"/Users/cybercom/Documents/TaobaoForIphone/Classes/util/DateUtil.m4300885448#2073"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/util/DateUtil.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/DateUtil.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/EncryptUtil.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/EncryptUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/EncryptUtil.o /Users/cybercom/Documents/TaobaoForIphone/Classes/util/EncryptUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282127547.884848
@@ -663,8 +725,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/util/EncryptUtil.m282127547#282127547#0(0"0(0#0#68"/Users/cybercom/Documents/TaobaoForIphone/Classes/util/EncryptUtil.m4300885448#2079"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/util/EncryptUtil.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/EncryptUtil.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282127511.915039
-e282127511.969709
+s282203632.483439
+e282203632.706051
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o
@@ -673,7 +735,10 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m282127511#282127511#0(0"0(0#0#61"/Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m4300885448#2070"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o0#
+lSLF07#2@69"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m282203632#282203632#0(0"0(0#0#61"/Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m4300885448#2070"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/ErrorCode.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ErrorCode.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/FetchUtil.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/../util/FetchUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/FetchUtil.o /Users/cybercom/Documents/TaobaoForIphone/Classes/util/FetchUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282127547.895220
@@ -715,8 +780,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m282127511#282127512#0(0"0(0#0#73"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m4300885448#2088"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetRequest.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetRequest.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282127511.993540
-e282127512.052376
+s282201298.228697
+e282201298.330254
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o
@@ -725,11 +790,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m282127511#282127512#0(0"0(0#0#74"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m4300885448#2090"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o0#
+lSLF07#2@82"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m282201298#282201298#0(0"0(0#0#74"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m4300885448#2090"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ItemsGetResponse.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ItemsGetResponse.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/../convert/JSONArray.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282127511.819327
-e282127511.885022
+s282636887.177777
+e282636887.241817
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o
@@ -738,11 +806,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m282127511#282127511#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m4300885448#2078"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o0#
+lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m282636887#282636887#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m4300885448#2078"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONArray.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONArray.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/../convert/JSONObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282127511.840426
-e282127511.914945
+s282636887.241899
+e282636887.306976
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o
@@ -751,7 +822,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m282127511#282127511#0(0"0(0#0#70"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o0#
+lSLF07#2@78"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m282636887#282636887#0(0"0(0#0#70"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/JSONObject.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/JSONObject.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ListUrlResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/ListUrlResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282127512.027725
@@ -858,8 +929,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m282127512#282127512#0(0"0(0#0#70"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m4300885448#2088"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiException.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiException.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282127512.142076
-e282127512.199019
+s282203632.543835
+e282203632.622150
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o
@@ -868,11 +939,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m282127512#282127512#0(0"0(0#0#67"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m4300885448#2082"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o0#
+lSLF07#2@75"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m282203632#282203632#0(0"0(0#0#67"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m4300885448#2082"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoApiMethod.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoApiMethod.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282130263.395173
-e282130263.463864
+s282636887.098447
+e282636887.177192
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o
@@ -881,11 +952,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m282130263#282130263#0(0"0(0#0#78"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m4300885448#2104"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o0#
+lSLF07#2@86"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m282636887#282636887#0(0"0(0#0#78"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m4300885448#2104"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoForIphoneAppDelegate.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphoneAppDelegate.o0#
+
+CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o /Users/cybercom/Documents/TaobaoForIphone/Classes/JSON/../convert/TaobaoItemJSONConvert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282127511.885122
-e282127511.935863
+s282636887.275979
+e282636887.387655
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o
@@ -894,11 +968,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m282127511#282127511#0(0"0(0#0#81"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m4300885448#2102"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o0#
+lSLF07#2@89"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m282636887#282636887#0(0"0(0#0#81"/Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m4300885448#2102"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/convert/TaobaoItemJSONConvert.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoItemJSONConvert.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282129734.390552
-e282129734.480637
+s282637360.779740
+e282637360.948383
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o
@@ -907,7 +981,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282129734#282129734#0(0"0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m4300885448#2092"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o0#
+lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m282637360#282637360#0(0"0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m4300885448#2092"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoJsonRestClient.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoJsonRestClient.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282127512.052468
@@ -923,8 +997,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m282127512#282127512#0(0"0(0#0#69"/Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/model/TaobaoModel.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoModel.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282127547.772126
-e282127547.842586
+s282642706.925848
+e282642707.167600
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o
@@ -933,11 +1007,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m282127547#282127547#0(0"0(0#0#66"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o0#
+lSLF07#2@74"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m282642706#282642707#0(0"0(0#0#66"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m4300885448#2080"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoUrlFetch.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoUrlFetch.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282130263.396059
-e282130263.522324
+s282636887.099567
+e282636887.275890
 r1
 xCompileC
 xbuild/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o
@@ -946,7 +1020,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m282130263#282130263#0(0"0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m4300885448#2092"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o0#
+lSLF07#2@80"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m282636887#282636887#0(0"0(0#0#72"/Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m4300885448#2092"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch -c /Users/cybercom/Documents/TaobaoForIphone/Classes/TaobaoViewController.m -o /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoViewController.o0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/UrlResponse.o /Users/cybercom/Documents/TaobaoForIphone/Classes/model/UrlResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282127512.084311
@@ -993,23 +1067,23 @@ xClasses/README
 lSLF07#2@19"Copy Classes/README282127509#282127509#0(0"0(0#0#56"/Users/cybercom/Documents/TaobaoForIphone/Classes/README4300885448#475"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cybercom/Documents/TaobaoForIphone/Classes/README /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app0#
 
 CGenerateDSYMFile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone
-s282130263.553711
-e282130263.574352
+s282642707.198691
+e282642707.245491
 r1
 xGenerateDSYMFile
 x/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM
 x/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone
-lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone282130263#282130263#0(0"0(0#0#105"/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone4300885448#416"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone -o /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM0#
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone282642707#282642707#0(0"0(0#0#105"/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone4300885448#416"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone -o /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app.dSYM0#
 
 CLd /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone normal i386
-s282130263.522411
-e282130263.553621
+s282642707.167723
+e282642707.198595
 r1
 xLd
 x/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone
 xnormal
 xi386
-lSLF07#2@110"Link /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone282130263#282130263#0(0"0(0#0#0"4300885448#919"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -filelist /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphone.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone0#
+lSLF07#2@110"Link /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone282642707#282642707#0(0"0(0#0#0"4300885448#919"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -filelist /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/TaobaoForIphone.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/TaobaoForIphone0#
 
 CProcessInfoPlistFile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist TaobaoForIphone-Info.plist
 s282127509.184859
@@ -1034,10 +1108,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@37"Precompile TaobaoForIphone_Prefix.pch282127510#282127511#0(0"0(0#0#68"/Users/cybercom/Documents/TaobaoForIphone/TaobaoForIphone_Prefix.pch4300885448#1933"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-generated-files.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-own-target-headers.hmap -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-all-target-headers.hmap -iquote /Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/TaobaoForIphone-project-headers.hmap -F/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator -I/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources/i386 -I/Users/cybercom/Documents/TaobaoForIphone/build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/DerivedSources -c /Users/cybercom/Documents/TaobaoForIphone/TaobaoForIphone_Prefix.pch -o /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaobaoForIphone_Prefix-cybqyzrghxhlvwbitozmjkvcrtsi/TaobaoForIphone_Prefix.pch.gch0#
 
 CTouch /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app
-s282130263.574427
-e282130263.576483
+s282642707.245568
+e282642707.266378
 r1
 xTouch
 x/Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app
-lSLF07#2@95"Touch /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app282130263#282130263#0(0"0(0#0#0"4300885448#292"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app0#
+lSLF07#2@95"Touch /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app282642707#282642707#0(0"0(0#0#0"4300885448#292"    cd /Users/cybercom/Documents/TaobaoForIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app0#
 

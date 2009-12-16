@@ -4,7 +4,7 @@
 
 @synthesize method;
 
--(TaobaoApiMethod *const)initWithMethod:(NSString *)newMethod {
+-(TaobaoApiMethod *)initWithMethod:(NSString *)newMethod {
 	if (self = [super init]) {
 		self.method = newMethod;
 	}
@@ -19,4 +19,8 @@
 	return items_get;
 }
 
+-(void)dealloc {
+	[method release];
+	[super dealloc];
+}
 @end

@@ -20,7 +20,6 @@
 	if (upload_fail == nil) {
 		upload_fail = [[ErrorCode alloc] initWithCode:3 andMsg:@"Upload fail"];
 	}
-	[upload_fail autorelease];
 	return upload_fail;
 }
 

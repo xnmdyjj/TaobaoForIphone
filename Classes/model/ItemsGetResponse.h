@@ -5,5 +5,5 @@ NSMutableArray *items;
 
 }
 -(id)initWithRsp: (UrlResponse *)rsp;
-@property (retain) NSMutableArray *items;
+@property (nonatomic, retain) NSMutableArray *items;
 @end

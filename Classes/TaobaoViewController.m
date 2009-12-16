@@ -95,6 +95,7 @@
 	req.page_no = 1;
 	req.page_size = 2;
 	[taobaoClient itemsGet:req];
+	[req release];
 }
 
 -(void)itemsGetSucceeded:(ItemsGetResponse *)itemsGetResponse {

@@ -5,6 +5,13 @@
 
 @synthesize array;
 
+-(JSONArray *)init {
+	if (self = [super init]) {
+		self.array = nil;
+	}
+	return self;
+}
+
 -(JSONArray *)initWithString:(NSString *)string {
 	if (self = [super init]) {
 		SBJSON *parser = [[SBJSON alloc] init];
