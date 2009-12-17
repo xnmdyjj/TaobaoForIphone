@@ -5,6 +5,7 @@
 @implementation TaobaoUrlFetch
 
 @synthesize receivedData;
+@synthesize taobaoURLConnection;
 @synthesize delegate;
 @synthesize method;
 @synthesize methodSelectorDictionary;
@@ -12,6 +13,8 @@
 -(id)init {
 	if (self = [super init]) {
 		self.delegate = nil;
+		self.receivedData = nil;
+		self.taobaoURLConnection = nil;
 		self.method = nil;
 		self.methodSelectorDictionary = nil;
 	}
@@ -20,7 +23,8 @@
 
 
 - (void) fetchWithUrl: (NSString *)stringUrl andPayload: (NSMutableDictionary *)payload andMethod:(NSString *)newMethod andSelector:(SEL)process {
-    NSURL *url = [NSURL URLWithString:stringUrl];
+    NSLog(@"start url fetch!");
+	NSURL *url = [NSURL URLWithString:stringUrl];
     NSString *buffer = [NSString stringWithString:[FetchUtil paramsToBuffer:payload andDelimiter:@"&" andEquals:@"="]];
 	NSData *body = [buffer	dataUsingEncoding:NSUTF8StringEncoding];
     NSMutableURLRequest* mutableRequest = [NSMutableURLRequest requestWithURL:url];
@@ -29,9 +33,10 @@
     [mutableRequest setHTTPMethod: @"POST"];
     [mutableRequest setHTTPBody:body];
 
-    NSURLConnection* connection = [NSURLConnection connectionWithRequest: mutableRequest delegate:self];
-    if (connection) {
-		self.receivedData = [[NSMutableData alloc] initWithLength:0];
+    NSURLConnection* theConnection = [NSURLConnection connectionWithRequest: mutableRequest delegate:self];
+	self.taobaoURLConnection = theConnection;
+    if (taobaoURLConnection) {
+		receivedData = [[NSMutableData data] retain];
 		self.method = newMethod;
 		self.methodSelectorDictionary = [NSMutableDictionary  dictionary];
 		[methodSelectorDictionary setValue:NSStringFromSelector(process) forKey:newMethod];
@@ -39,6 +44,7 @@
     else {
     	NSLog (@"Could not open the connection");
     }
+	
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
@@ -66,7 +72,7 @@
 
     // release the connection, and the data object
 
-    [connection release];
+    [taobaoURLConnection release];
 
     // receivedData is declared as a method instance elsewhere
 
@@ -85,20 +91,22 @@
     // do something with the data
 
     // receivedData is declared as a method instance elsewhere
-    
+	NSLog(@"connectionDidFinishLoading");
+
     if ((delegate != nil) && [delegate respondsToSelector:@selector(taobaoUrlFetch:didRetrieveData:)]) {
         [delegate taobaoUrlFetch:self didRetrieveData:receivedData];
     }
-
-    // release the connection, and the data object
-    [connection release];
+	
+	[taobaoURLConnection release];
+	[receivedData release];
 }
 
 - (void)dealloc
 {
-	//[method release];
-	//[methodSelectorDictionary release];
+	[method release];
+	[methodSelectorDictionary release];
     [receivedData release];
+	[taobaoURLConnection release];
     [super dealloc];
 }
  

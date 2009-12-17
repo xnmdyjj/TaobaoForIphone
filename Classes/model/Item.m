@@ -8,6 +8,18 @@
 @synthesize type;
 @synthesize cid;
 
+-(id)init {
+	if (self = [super init]) {
+		self.iid = nil;
+		self.title = nil;
+		self.nick = nil;
+		self.type = nil;
+		self.cid = nil;
+	}
+	return self;
+}
+
+
 -(void)dealloc {
 	[iid release];
 	[title release];

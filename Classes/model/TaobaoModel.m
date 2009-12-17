@@ -5,6 +5,13 @@ NSString *const ANON = @"anon";
 @implementation TaobaoModel
 
 @synthesize anons;
+
+-(id) init {
+	if (self = [super init]) {
+		self.anons = nil;
+	}
+	return self;
+}
 	
 -(void)addAnon:(id)anon {
 	if (self.anons == nil) {

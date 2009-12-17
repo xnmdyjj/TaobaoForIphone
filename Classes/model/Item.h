@@ -9,6 +9,8 @@ NSString *cid;
 
 }
 
+-(id)init;
+
 @property (retain) NSString *iid;
 @property (retain) NSString *title;
 @property (retain) NSString *nick;

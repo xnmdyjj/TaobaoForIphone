@@ -296,6 +296,7 @@ static NSString* const V = @"v";
 }
 
 -(void)taobaoUrlFetch:(TaobaoUrlFetch *)urlFetch didRetrieveData:(NSData *)data {
+	NSLog(@"taobaoUrlFetch didRetrieveData");
 	SEL process = NSSelectorFromString([urlFetch.methodSelectorDictionary valueForKey:urlFetch.method]);
 	[self performSelector:process withObject:data];
 }
@@ -321,25 +322,28 @@ static NSString* const V = @"v";
 }
 
 -(void)itemsGetProcess:(NSData *)data {
+	NSLog(@"itemsGetProcess");
 	NSString *json_string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 	UrlResponse *response = [[UrlResponse alloc] init];
 	response.body = json_string;
+	//NSLog(@"json_string = %@", json_string);
 	[json_string release];
+
 	ItemsGetResponse *itemsGetResponse = [[ItemsGetResponse alloc] initWithRsp:response];
-	//if ([itemsGetResponse isSuccess]) {
+	if ([itemsGetResponse isSuccess]) {
 		JSONObject *json = [[JSONObject alloc] initWithString:response.body];
 		[response release];
 		[self parseError:itemsGetResponse andJSONObject:json];
 		if ([itemsGetResponse isSuccess]) {
-			JSONObject *rsp = [[JSONObject alloc] initWithJSONObject:[json getJSONObject:RSP]];
+			JSONObject *rsp = [json getJSONObject:RSP];
 			[json release];
 			if ([rsp has:ITEMS]) {
-				JSONArray *items = [[JSONArray alloc] initWithJSONArray:[rsp getJSONArray:ITEMS]];
+				JSONArray *items = [rsp getJSONArray:ITEMS];
 				itemsGetResponse.items = [TaobaoItemJSONConvert convertJsonArrayToItemList:items];
-				[items release];
 			}
 			[self setTotalResults:rsp andListUrlResponse:itemsGetResponse];
 			[rsp release];
+			
 			if ((delegate != nil) && [delegate respondsToSelector:@selector(itemsGetSucceeded:)]) {
 				[delegate itemsGetSucceeded:itemsGetResponse];
 			}
@@ -349,8 +353,9 @@ static NSString* const V = @"v";
 				[delegate itemsGetFailed:itemsGetResponse];
 			}
 		}
-		[itemsGetResponse release];
-	//}
+	}
+	[itemsGetResponse release];
+
 }
 
 -(void)dealloc {

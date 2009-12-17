@@ -7,6 +7,16 @@
 @synthesize msg;
 @synthesize redirectUrl;
 
+-(id)init {
+	if (self = [super init]) {
+		self.errorCode = nil;
+		self.body = nil;
+		self.msg = nil;
+		self.redirectUrl = nil;
+	}
+	return self;
+}
+
 -(id)initWithBody: (NSString *)newBody andErrorCode:(NSString *)newErrorCode andMsg:(NSString *)newMsg andRedirectUrl:(NSString *)newRedirectUrl {
 	if (self = [super init]) {
 		[self setBody:newBody andErrorCode:newErrorCode andMsg:newMsg andRedirectUrl:newRedirectUrl];

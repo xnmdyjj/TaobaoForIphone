@@ -9,6 +9,7 @@ NSString *body;
 @property (retain)  NSString* redirectUrl;
 @property (retain)  NSString* body;
 
+-(id)init;
 -(id)initWithBody: (NSString *)newBody andErrorCode:(NSString *)newErrorCode andMsg:(NSString *)newMsg andRedirectUrl:(NSString *)newRedirectUrl;
 -(void)setBody:(NSString *)newBody andErrorCode:(NSString *)newErrorCode andMsg:(NSString *)newMsg andRedirectUrl:(NSString *)newRedirectUrl;
 -(id)initWithRsp: (UrlResponse *)rsp;

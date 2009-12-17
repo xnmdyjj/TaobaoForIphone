@@ -42,7 +42,6 @@
 		jsonObject = [[JSONObject alloc] init];
 		jsonObject.dictionary = dictionaryForKey;
 	}
-	[jsonObject autorelease];
 	return jsonObject;
 }
 
@@ -62,9 +61,9 @@
 	NSArray *arrayForKey;
 	JSONArray *jsonArray;
 	if (arrayForKey = [dictionary valueForKey:key]) {
-		jsonArray = [[JSONArray alloc] initWithArray:arrayForKey];
+		jsonArray = [[JSONArray alloc] init];
+		jsonArray.array = arrayForKey;
 	}
-	[jsonArray autorelease];
 	return jsonArray;
 }
 

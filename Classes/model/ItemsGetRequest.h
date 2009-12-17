@@ -7,6 +7,8 @@
    /*add instance val*/
 }
 
+-(id) init;
+
 @property (retain) NSString *q;
 @property (retain) NSString *fields;
 @property (assign) NSUInteger page_no;
