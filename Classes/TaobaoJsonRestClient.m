@@ -9,6 +9,12 @@
 #import "EncryptUtil.h"
 #import "JSONObject.h";
 #import "JSONArray.h";
+#import "NSDictionaryUtil.h"
+#import "NSArrayUtil.h"
+#import "TaobaoItemDictionaryConvert.h"
+
+#define USE_DICTIONARY_AND_ARRAY 1
+#define USE_JSONObject_AND_JSONArray 0
 
 
 
@@ -43,20 +49,7 @@ static NSString* const V = @"v";
 
     if (self = [super init]) {
         [self initWithAppkey:newAppkey andSecret:newSecret andIsSandbox:NO];
-		/*BOOL isSandbox = NO;
-		NSString *newServiceUrl = isSandbox ? SIP_SANDBOX_SERVICE_URL:SIP_SERVICE_URL;
-		self.serviceUrl = newServiceUrl;
-		self.appkey = newAppkey;
-		self.secret = newSecret;
-		self.v = DEFAULT_SERVICE_VERSION;
-		self.fetch = [[TaobaoUrlFetch alloc] init];
-		fetch.delegate = self;*/
-    }
-	/*
-	NSLog(@"%@", self.appkey);
-	NSLog(@"%@", self.secret);
-	NSLog(@"%@", self.serviceUrl);
-	NSLog(@"%@", self.v);*/
+	}
     return self;
 }
 
@@ -232,21 +225,49 @@ static NSString* const V = @"v";
 	return timestamp;
 }
 
+#if USE_JSONObject_AND_JSONArray
+
 -(void)parseError:(UrlResponse *)response andJSONObject:(JSONObject *)json {
 	if ([json has:ERROR_RSP]) {
 		JSONObject *errorRsp = [[JSONObject alloc] initWithJSONObject:[json getJSONObject:ERROR_RSP]];
 		response.errorCode = [errorRsp getString:ERROR_CODE];
 		response.msg = [errorRsp getString:ERROR_MSG];
+		NSLog(@"%d", [json retainCount]);
+		NSLog(@"%d", [errorRsp retainCount]);
 		[errorRsp release];
 	}
 }
+
+#elif USE_DICTIONARY_AND_ARRAY
+
+-(void)parseError:(UrlResponse *)response andDictionary:(NSDictionary *)dictionary {
+	if ([dictionary has:ERROR_RSP]) {
+		//NSDictionary *errorRsp = [NSDictionary dictionaryWithDictionary:jsonDictionary];
+		response.errorCode = [dictionary getString:ERROR_CODE];
+		response.msg = [dictionary getString:ERROR_MSG];
+	}
+}
+
+#endif
+
+
+#if USE_JSONObject_AND_JSONArray
 
 -(void)setTotalResults:(JSONObject *)rsp andListUrlResponse:(ListUrlResponse *)listUrlResponse {
 	if ([rsp has:TOTALRESULTS]) {
 		listUrlResponse.totalResults = [[rsp getString:TOTALRESULTS] integerValue];
 	}
-
 }
+
+#elif USE_DICTIONARY_AND_ARRAY
+
+-(void)setTotalResults:(NSDictionary *)rsp andListUrlResponse:(ListUrlResponse *)listUrlResponse {
+	if ([rsp has:TOTALRESULTS]) {
+		listUrlResponse.totalResults = [[rsp getString:TOTALRESULTS] integerValue];
+	}
+}
+
+#endif
 
 -(NSString *)getTimestamp {
 	return [DateUtil dateToStr:[NSDate date]];
@@ -321,12 +342,14 @@ static NSString* const V = @"v";
 			  andMethod:[TaobaoApiMethod ITEMS_GET].method andSelector:@selector(itemsGetProcess:)];
 }
 
+#if USE_JSONObject_AND_JSONArray
+
 -(void)itemsGetProcess:(NSData *)data {
 	NSLog(@"itemsGetProcess");
 	NSString *json_string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 	UrlResponse *response = [[UrlResponse alloc] init];
 	response.body = json_string;
-	//NSLog(@"json_string = %@", json_string);
+	NSLog(@"json_string = %@", json_string);
 	[json_string release];
 
 	ItemsGetResponse *itemsGetResponse = [[ItemsGetResponse alloc] initWithRsp:response];
@@ -336,13 +359,20 @@ static NSString* const V = @"v";
 		[self parseError:itemsGetResponse andJSONObject:json];
 		if ([itemsGetResponse isSuccess]) {
 			JSONObject *rsp = [json getJSONObject:RSP];
+			NSLog(@"%d", [json retainCount]);
 			[json release];
 			if ([rsp has:ITEMS]) {
-				JSONArray *items = [rsp getJSONArray:ITEMS];
+				NSLog(@"%d", [rsp retainCount]);
+				JSONArray *items = [[rsp getJSONArray:ITEMS] retain];
+				NSLog(@"%d", [rsp retainCount]);
 				itemsGetResponse.items = [TaobaoItemJSONConvert convertJsonArrayToItemList:items];
+				NSLog(@"%d", [items retainCount]);
+				//[items autorelease];
+				NSLog(@"%d", [items retainCount]);
 			}
 			[self setTotalResults:rsp andListUrlResponse:itemsGetResponse];
-			[rsp release];
+			
+			NSLog(@"%d", [rsp retainCount]);
 			
 			if ((delegate != nil) && [delegate respondsToSelector:@selector(itemsGetSucceeded:)]) {
 				[delegate itemsGetSucceeded:itemsGetResponse];
@@ -354,9 +384,51 @@ static NSString* const V = @"v";
 			}
 		}
 	}
+	NSLog(@"%d", [itemsGetResponse retainCount]);
 	[itemsGetResponse release];
 
 }
+
+#elif USE_DICTIONARY_AND_ARRAY
+
+-(void)itemsGetProcess:(NSData *)data {
+	NSLog(@"itemsGetProcess");
+	NSString *json_string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+	UrlResponse *response = [[UrlResponse alloc] init];
+	response.body = json_string;
+	NSLog(@"json_string = %@", json_string);
+	[json_string release];
+	ItemsGetResponse *itemsGetResponse = [[ItemsGetResponse alloc] initWithRsp:response];
+	[response release];
+	if ([itemsGetResponse isSuccess]) {
+		SBJSON *parser = [[SBJSON alloc] init];
+		NSDictionary *dictionary = [parser objectWithString:itemsGetResponse.body error:nil];
+		[self parseError:itemsGetResponse andDictionary:dictionary];
+
+		if ([itemsGetResponse isSuccess]) {
+			NSDictionary *rsp = [dictionary getDictionary:RSP];
+			if ([rsp has:ITEMS]) {
+				NSArray *items = [rsp getArray:ITEMS];
+				itemsGetResponse.items = [TaobaoItemDictionaryConvert convertArrayToItemList:items];
+			}
+			[self setTotalResults:rsp andListUrlResponse:itemsGetResponse];
+			
+			if ((delegate != nil) && [delegate respondsToSelector:@selector(itemsGetSucceeded:)]) {
+				[delegate itemsGetSucceeded:itemsGetResponse];
+			}
+		} else {
+			/*items get failed*/
+			if ((delegate != nil) && [delegate respondsToSelector:@selector(itemsGetFailed:)]) {
+				[delegate itemsGetFailed:itemsGetResponse];
+			}
+		}
+
+		[parser release];
+	}
+	[itemsGetResponse release];
+}
+
+#endif
 
 -(void)dealloc {
 	[appkey release];

@@ -14,6 +14,9 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		F12C7C6010D0E875007494B1 /* TaobaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */; };
+		F18F802F10E0C1690093A95E /* NSDictionaryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F18F802E10E0C1690093A95E /* NSDictionaryUtil.m */; };
+		F18F806310E0C6490093A95E /* NSArrayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F18F806210E0C6490093A95E /* NSArrayUtil.m */; };
+		F18F806610E0C9590093A95E /* TaobaoItemDictionaryConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = F18F806510E0C9590093A95E /* TaobaoItemDictionaryConvert.m */; };
 		F1BDEF8F10D0EB0C0078F6C3 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF5E10D0EB0C0078F6C3 /* NSObject+SBJSON.m */; };
 		F1BDEF9010D0EB0C0078F6C3 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6010D0EB0C0078F6C3 /* NSString+SBJSON.m */; };
 		F1BDEF9110D0EB0C0078F6C3 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6210D0EB0C0078F6C3 /* SBJSON.m */; };
@@ -54,6 +57,12 @@
 		8D1107310486CEB800E47090 /* TaobaoForIphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TaobaoForIphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoViewController.h; sourceTree = "<group>"; };
 		F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoViewController.m; sourceTree = "<group>"; };
+		F18F802D10E0C1690093A95E /* NSDictionaryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryUtil.h; sourceTree = "<group>"; };
+		F18F802E10E0C1690093A95E /* NSDictionaryUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryUtil.m; sourceTree = "<group>"; };
+		F18F806110E0C6490093A95E /* NSArrayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayUtil.h; sourceTree = "<group>"; };
+		F18F806210E0C6490093A95E /* NSArrayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayUtil.m; sourceTree = "<group>"; };
+		F18F806410E0C9590093A95E /* TaobaoItemDictionaryConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoItemDictionaryConvert.h; sourceTree = "<group>"; };
+		F18F806510E0C9590093A95E /* TaobaoItemDictionaryConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoItemDictionaryConvert.m; sourceTree = "<group>"; };
 		F1BDEF5C10D0EB0C0078F6C3 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		F1BDEF5D10D0EB0C0078F6C3 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		F1BDEF5E10D0EB0C0078F6C3 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -235,6 +244,8 @@
 				F1BDEF6F10D0EB0C0078F6C3 /* JSONObject.m */,
 				F1BDEF7010D0EB0C0078F6C3 /* TaobaoItemJSONConvert.h */,
 				F1BDEF7110D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m */,
+				F18F806410E0C9590093A95E /* TaobaoItemDictionaryConvert.h */,
+				F18F806510E0C9590093A95E /* TaobaoItemDictionaryConvert.m */,
 			);
 			path = convert;
 			sourceTree = "<group>";
@@ -267,6 +278,10 @@
 				F1BDEFB710D0ECB60078F6C3 /* EncryptUtil.m */,
 				F1BDEFB810D0ECB60078F6C3 /* FetchUtil.h */,
 				F1BDEFB910D0ECB60078F6C3 /* FetchUtil.m */,
+				F18F802D10E0C1690093A95E /* NSDictionaryUtil.h */,
+				F18F802E10E0C1690093A95E /* NSDictionaryUtil.m */,
+				F18F806110E0C6490093A95E /* NSArrayUtil.h */,
+				F18F806210E0C6490093A95E /* NSArrayUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -352,6 +367,9 @@
 				F1BDEFBA10D0ECB60078F6C3 /* DateUtil.m in Sources */,
 				F1BDEFBB10D0ECB60078F6C3 /* EncryptUtil.m in Sources */,
 				F1BDEFBC10D0ECB60078F6C3 /* FetchUtil.m in Sources */,
+				F18F802F10E0C1690093A95E /* NSDictionaryUtil.m in Sources */,
+				F18F806310E0C6490093A95E /* NSArrayUtil.m in Sources */,
+				F18F806610E0C9590093A95E /* TaobaoItemDictionaryConvert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

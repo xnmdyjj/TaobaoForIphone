@@ -11,7 +11,7 @@
 }
 
 -(id)init;
--(void)fetchWithUrl:(NSString *)stringUrl andPayload:(NSMutableDictionary *)payload andMethod:(NSString *)newMethod andSelector:(SEL)process;
+-(void)fetchWithUrl:(NSString *)stringUrl andPayload:(NSMutableDictionary *)payload andMethod:(NSString *)theMethod andSelector:(SEL)process;
 
 @property (nonatomic, assign) id<TaobaoUrlFetchDelegate> delegate;
 @property (nonatomic, retain) NSMutableData *receivedData;

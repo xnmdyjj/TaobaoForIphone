@@ -22,7 +22,7 @@
 }
 
 
-- (void) fetchWithUrl: (NSString *)stringUrl andPayload: (NSMutableDictionary *)payload andMethod:(NSString *)newMethod andSelector:(SEL)process {
+- (void) fetchWithUrl: (NSString *)stringUrl andPayload: (NSMutableDictionary *)payload andMethod:(NSString *)theMethod andSelector:(SEL)process {
     NSLog(@"start url fetch!");
 	NSURL *url = [NSURL URLWithString:stringUrl];
     NSString *buffer = [NSString stringWithString:[FetchUtil paramsToBuffer:payload andDelimiter:@"&" andEquals:@"="]];
@@ -37,9 +37,9 @@
 	self.taobaoURLConnection = theConnection;
     if (taobaoURLConnection) {
 		receivedData = [[NSMutableData data] retain];
-		self.method = newMethod;
+		self.method = theMethod;
 		self.methodSelectorDictionary = [NSMutableDictionary  dictionary];
-		[methodSelectorDictionary setValue:NSStringFromSelector(process) forKey:newMethod];
+		[methodSelectorDictionary setValue:NSStringFromSelector(process) forKey:theMethod];
     }
     else {
     	NSLog (@"Could not open the connection");

@@ -26,14 +26,16 @@
 	return getItem;
 }
 
-+ (NSMutableArray *)convertJsonArrayToItemList:(JSONArray *)jsonArray {
++ (NSMutableArray *)convertJsonArrayToItemList:(JSONArray *)theJSONArray {
 	NSMutableArray *getItemList = [NSMutableArray array];
 	Item *getItem = nil;
 	NSUInteger i;
+	JSONArray *jsonArray = [[JSONArray alloc] initWithJSONArray:theJSONArray];
 	for (i = 0; i < [jsonArray length]; i++) {
 		getItem = [TaobaoItemJSONConvert convertJsonToItem:[jsonArray getJSONObject:i]];
 		[getItemList addObject:getItem];
 	}
+	[jsonArray release];
 	return getItemList;
 }
 

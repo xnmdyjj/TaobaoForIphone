@@ -42,6 +42,7 @@
 		jsonObject = [[JSONObject alloc] init];
 		jsonObject.dictionary = dictionaryForKey;
 	}
+	[jsonObject autorelease];
 	return jsonObject;
 }
 
@@ -64,6 +65,7 @@
 		jsonArray = [[JSONArray alloc] init];
 		jsonArray.array = arrayForKey;
 	}
+	[jsonArray autorelease];
 	return jsonArray;
 }
 
