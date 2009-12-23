@@ -70,10 +70,6 @@
 {
 	NSLog(@"connection error");
 
-    // release the connection, and the data object
-
-    [taobaoURLConnection release];
-
     // receivedData is declared as a method instance elsewhere
 
     [receivedData release];
@@ -97,9 +93,9 @@
         [delegate taobaoUrlFetch:self didRetrieveData:receivedData];
     }
 	
-	[taobaoURLConnection release];
 	[receivedData release];
 }
+
 
 - (void)dealloc
 {

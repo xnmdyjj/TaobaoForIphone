@@ -34,6 +34,12 @@
 	if (self = [super init]) {
 		//init taobao client
 		TaobaoJsonRestClient *aClient = [[TaobaoJsonRestClient alloc] initWithAppkey:@"26780" andSecret:@"a59579203ba611de8795cce12ee7e94a"];
+		/*
+		TaobaoJsonRestClient *aClient = [[TaobaoJsonRestClient alloc] initWithServiceUrl:@"http://gw.api.tbsandbox.com/router/rest" 
+																			   andAppkey:@"26780" andSecret:@"a59579203ba611de8795cce12ee7e94a"];*/
+		
+		
+		//TaobaoJsonRestClient *aClient = [[TaobaoJsonRestClient alloc] initWithServiceUrl:@"http://gw.api.tbsandbox.com/router/rest" andAppkey:@"12021683" andSecret:@"4aa39db88953cf53e9c585a7900d46cf"];
 		self.taobaoClient = aClient;
 		taobaoClient.delegate = self;
 		[aClient release];
@@ -100,7 +106,9 @@
 
 -(void)itemsGetSucceeded:(ItemsGetResponse *)itemsGetResponse {
 	NSLog(@"items get succeeded");
-	NSLog(@"%@",itemsGetResponse.body);
+	
+
+	//NSLog(@"%@",itemsGetResponse.items);
 }
 
 -(void)itemsGetFailed:(ItemsGetResponse *)itemsGetResponse {

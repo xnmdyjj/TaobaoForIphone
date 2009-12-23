@@ -24,9 +24,6 @@
 		F1BDEF9310D0EB0C0078F6C3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6610D0EB0C0078F6C3 /* SBJsonParser.m */; };
 		F1BDEF9410D0EB0C0078F6C3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6810D0EB0C0078F6C3 /* SBJsonWriter.m */; };
 		F1BDEF9510D0EB0C0078F6C3 /* ApiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */; };
-		F1BDEF9610D0EB0C0078F6C3 /* JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6D10D0EB0C0078F6C3 /* JSONArray.m */; };
-		F1BDEF9710D0EB0C0078F6C3 /* JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF6F10D0EB0C0078F6C3 /* JSONObject.m */; };
-		F1BDEF9810D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7110D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m */; };
 		F1BDEF9910D0EB0C0078F6C3 /* ErrorCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7310D0EB0C0078F6C3 /* ErrorCode.m */; };
 		F1BDEF9A10D0EB0C0078F6C3 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7610D0EB0C0078F6C3 /* Item.m */; };
 		F1BDEF9B10D0EB0C0078F6C3 /* ItemsGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BDEF7810D0EB0C0078F6C3 /* ItemsGetRequest.m */; };
@@ -78,12 +75,6 @@
 		F1BDEF6810D0EB0C0078F6C3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		F1BDEF6910D0EB0C0078F6C3 /* ApiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConstants.h; sourceTree = "<group>"; };
 		F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiConstants.m; sourceTree = "<group>"; };
-		F1BDEF6C10D0EB0C0078F6C3 /* JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONArray.h; sourceTree = "<group>"; };
-		F1BDEF6D10D0EB0C0078F6C3 /* JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONArray.m; sourceTree = "<group>"; };
-		F1BDEF6E10D0EB0C0078F6C3 /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
-		F1BDEF6F10D0EB0C0078F6C3 /* JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObject.m; sourceTree = "<group>"; };
-		F1BDEF7010D0EB0C0078F6C3 /* TaobaoItemJSONConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoItemJSONConvert.h; sourceTree = "<group>"; };
-		F1BDEF7110D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoItemJSONConvert.m; sourceTree = "<group>"; };
 		F1BDEF7210D0EB0C0078F6C3 /* ErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCode.h; sourceTree = "<group>"; };
 		F1BDEF7310D0EB0C0078F6C3 /* ErrorCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorCode.m; sourceTree = "<group>"; };
 		F1BDEF7510D0EB0C0078F6C3 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
@@ -137,28 +128,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F1BDEF5B10D0EB0C0078F6C3 /* JSON */,
-				F1BDEFB310D0ECB60078F6C3 /* util */,
-				F1BDEF7410D0EB0C0078F6C3 /* model */,
-				F1BDEF6B10D0EB0C0078F6C3 /* convert */,
-				F1BDEF6910D0EB0C0078F6C3 /* ApiConstants.h */,
-				F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */,
-				F1BDEF7210D0EB0C0078F6C3 /* ErrorCode.h */,
-				F1BDEF7310D0EB0C0078F6C3 /* ErrorCode.m */,
-				F1BDEF8110D0EB0C0078F6C3 /* README */,
-				F1BDEF8210D0EB0C0078F6C3 /* TaobaoApiException.h */,
-				F1BDEF8310D0EB0C0078F6C3 /* TaobaoApiException.m */,
-				F1BDEF8410D0EB0C0078F6C3 /* TaobaoApiMethod.h */,
-				F1BDEF8510D0EB0C0078F6C3 /* TaobaoApiMethod.m */,
-				F1BDEF8610D0EB0C0078F6C3 /* TaobaoJsonRestClient.h */,
-				F1BDEF8810D0EB0C0078F6C3 /* TaobaoJsonRestClientDelegate.h */,
-				F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */,
-				F1BDEF8910D0EB0C0078F6C3 /* TaobaoPrivateApi.h */,
-				F1BDEF8A10D0EB0C0078F6C3 /* TaobaoPublicApi.h */,
-				F1BDEF8B10D0EB0C0078F6C3 /* TaobaoRestClient.h */,
-				F1BDEF8C10D0EB0C0078F6C3 /* TaobaoUrlFetch.h */,
-				F1BDEF8D10D0EB0C0078F6C3 /* TaobaoUrlFetch.m */,
-				F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */,
+				F146202210E21E1600D6D41D /* Taobao */,
 				1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */,
 				F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */,
@@ -215,6 +185,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F146202210E21E1600D6D41D /* Taobao */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDEF5B10D0EB0C0078F6C3 /* JSON */,
+				F1BDEFB310D0ECB60078F6C3 /* util */,
+				F1BDEF7410D0EB0C0078F6C3 /* model */,
+				F1BDEF6B10D0EB0C0078F6C3 /* convert */,
+				F1BDEF6910D0EB0C0078F6C3 /* ApiConstants.h */,
+				F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */,
+				F1BDEF7210D0EB0C0078F6C3 /* ErrorCode.h */,
+				F1BDEF7310D0EB0C0078F6C3 /* ErrorCode.m */,
+				F1BDEF8110D0EB0C0078F6C3 /* README */,
+				F1BDEF8210D0EB0C0078F6C3 /* TaobaoApiException.h */,
+				F1BDEF8310D0EB0C0078F6C3 /* TaobaoApiException.m */,
+				F1BDEF8410D0EB0C0078F6C3 /* TaobaoApiMethod.h */,
+				F1BDEF8510D0EB0C0078F6C3 /* TaobaoApiMethod.m */,
+				F1BDEF8610D0EB0C0078F6C3 /* TaobaoJsonRestClient.h */,
+				F1BDEF8810D0EB0C0078F6C3 /* TaobaoJsonRestClientDelegate.h */,
+				F1BDEF8710D0EB0C0078F6C3 /* TaobaoJsonRestClient.m */,
+				F1BDEF8910D0EB0C0078F6C3 /* TaobaoPrivateApi.h */,
+				F1BDEF8A10D0EB0C0078F6C3 /* TaobaoPublicApi.h */,
+				F1BDEF8B10D0EB0C0078F6C3 /* TaobaoRestClient.h */,
+				F1BDEF8C10D0EB0C0078F6C3 /* TaobaoUrlFetch.h */,
+				F1BDEF8D10D0EB0C0078F6C3 /* TaobaoUrlFetch.m */,
+				F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */,
+			);
+			name = Taobao;
+			sourceTree = "<group>";
+		};
 		F1BDEF5B10D0EB0C0078F6C3 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,12 +237,6 @@
 		F1BDEF6B10D0EB0C0078F6C3 /* convert */ = {
 			isa = PBXGroup;
 			children = (
-				F1BDEF6C10D0EB0C0078F6C3 /* JSONArray.h */,
-				F1BDEF6D10D0EB0C0078F6C3 /* JSONArray.m */,
-				F1BDEF6E10D0EB0C0078F6C3 /* JSONObject.h */,
-				F1BDEF6F10D0EB0C0078F6C3 /* JSONObject.m */,
-				F1BDEF7010D0EB0C0078F6C3 /* TaobaoItemJSONConvert.h */,
-				F1BDEF7110D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m */,
 				F18F806410E0C9590093A95E /* TaobaoItemDictionaryConvert.h */,
 				F18F806510E0C9590093A95E /* TaobaoItemDictionaryConvert.m */,
 			);
@@ -350,9 +343,6 @@
 				F1BDEF9310D0EB0C0078F6C3 /* SBJsonParser.m in Sources */,
 				F1BDEF9410D0EB0C0078F6C3 /* SBJsonWriter.m in Sources */,
 				F1BDEF9510D0EB0C0078F6C3 /* ApiConstants.m in Sources */,
-				F1BDEF9610D0EB0C0078F6C3 /* JSONArray.m in Sources */,
-				F1BDEF9710D0EB0C0078F6C3 /* JSONObject.m in Sources */,
-				F1BDEF9810D0EB0C0078F6C3 /* TaobaoItemJSONConvert.m in Sources */,
 				F1BDEF9910D0EB0C0078F6C3 /* ErrorCode.m in Sources */,
 				F1BDEF9A10D0EB0C0078F6C3 /* Item.m in Sources */,
 				F1BDEF9B10D0EB0C0078F6C3 /* ItemsGetRequest.m in Sources */,

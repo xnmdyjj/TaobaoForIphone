@@ -4,18 +4,11 @@
 #import "UrlResponse.h"
 #import "ItemsGetResponse.h"
 #import "JSON.h"
-#import "TaobaoItemJSONConvert.h"
 #import "DateUtil.h"
 #import "EncryptUtil.h"
-#import "JSONObject.h";
-#import "JSONArray.h";
 #import "NSDictionaryUtil.h"
 #import "NSArrayUtil.h"
 #import "TaobaoItemDictionaryConvert.h"
-
-#define USE_DICTIONARY_AND_ARRAY 1
-#define USE_JSONObject_AND_JSONArray 0
-
 
 
 static NSString* const FORMAT = @"format";
@@ -225,41 +218,16 @@ static NSString* const V = @"v";
 	return timestamp;
 }
 
-#if USE_JSONObject_AND_JSONArray
 
--(void)parseError:(UrlResponse *)response andJSONObject:(JSONObject *)json {
-	if ([json has:ERROR_RSP]) {
-		JSONObject *errorRsp = [[JSONObject alloc] initWithJSONObject:[json getJSONObject:ERROR_RSP]];
-		response.errorCode = [errorRsp getString:ERROR_CODE];
-		response.msg = [errorRsp getString:ERROR_MSG];
-		NSLog(@"%d", [json retainCount]);
-		NSLog(@"%d", [errorRsp retainCount]);
-		[errorRsp release];
-	}
-}
-
-#elif USE_DICTIONARY_AND_ARRAY
 
 -(void)parseError:(UrlResponse *)response andDictionary:(NSDictionary *)dictionary {
 	if ([dictionary has:ERROR_RSP]) {
-		//NSDictionary *errorRsp = [NSDictionary dictionaryWithDictionary:jsonDictionary];
 		response.errorCode = [dictionary getString:ERROR_CODE];
 		response.msg = [dictionary getString:ERROR_MSG];
 	}
 }
 
-#endif
 
-
-#if USE_JSONObject_AND_JSONArray
-
--(void)setTotalResults:(JSONObject *)rsp andListUrlResponse:(ListUrlResponse *)listUrlResponse {
-	if ([rsp has:TOTALRESULTS]) {
-		listUrlResponse.totalResults = [[rsp getString:TOTALRESULTS] integerValue];
-	}
-}
-
-#elif USE_DICTIONARY_AND_ARRAY
 
 -(void)setTotalResults:(NSDictionary *)rsp andListUrlResponse:(ListUrlResponse *)listUrlResponse {
 	if ([rsp has:TOTALRESULTS]) {
@@ -267,7 +235,6 @@ static NSString* const V = @"v";
 	}
 }
 
-#endif
 
 -(NSString *)getTimestamp {
 	return [DateUtil dateToStr:[NSDate date]];
@@ -335,61 +302,24 @@ static NSString* const V = @"v";
 	
 	[params setValue:itemsGetRequest.q forKey:Q];
 	[params setValue:itemsGetRequest.fields forKey:FIELDS];
+	[params setValue:itemsGetRequest.startPrice forKey:START_PRICE];
+	[params setValue:itemsGetRequest.endPrice forKey:END_PRICE];
+	[params setValue:itemsGetRequest.cid forKey:CID];
 	[params setValue:[NSString stringWithFormat:@"%d",itemsGetRequest.page_no] forKey:PAGE_NO];
-	[params setValue:[NSString stringWithFormat:@"%d",itemsGetRequest.page_size] forKey:TAOBAO_PAGE_SIZE];
+	[params setValue:[NSString stringWithFormat:@"%d",itemsGetRequest.page_size] forKey:PAGE_SIZE];
+	[params setValue:itemsGetRequest.orderBy forKey:ORDER_BY];
+	[params setValue:itemsGetRequest.nicks forKey:NICKS];
+	[params setValue:itemsGetRequest.props forKey:PROPS];
+	[params setValue:itemsGetRequest.productId forKey:PRODUCT_ID];
+	[params setValue:[NSString stringWithFormat:@"%@", itemsGetRequest.wwStatus?@"true":@"false"] forKey:WW_STATUS];
+	[params setValue:[NSString stringWithFormat:@"%@", itemsGetRequest.postFree?@"true":@"false"] forKey:POST_FEE];
+	[params setValue:itemsGetRequest.city forKey:LOCATION_CITY];
+	[params setValue:itemsGetRequest.state forKey:LOCATION_STATE];
 	
 	[fetch fetchWithUrl:serviceUrl andPayload:[self getTemplateRequest:[TaobaoApiMethod ITEMS_GET].method andParams:params] 
 			  andMethod:[TaobaoApiMethod ITEMS_GET].method andSelector:@selector(itemsGetProcess:)];
 }
 
-#if USE_JSONObject_AND_JSONArray
-
--(void)itemsGetProcess:(NSData *)data {
-	NSLog(@"itemsGetProcess");
-	NSString *json_string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-	UrlResponse *response = [[UrlResponse alloc] init];
-	response.body = json_string;
-	NSLog(@"json_string = %@", json_string);
-	[json_string release];
-
-	ItemsGetResponse *itemsGetResponse = [[ItemsGetResponse alloc] initWithRsp:response];
-	if ([itemsGetResponse isSuccess]) {
-		JSONObject *json = [[JSONObject alloc] initWithString:response.body];
-		[response release];
-		[self parseError:itemsGetResponse andJSONObject:json];
-		if ([itemsGetResponse isSuccess]) {
-			JSONObject *rsp = [json getJSONObject:RSP];
-			NSLog(@"%d", [json retainCount]);
-			[json release];
-			if ([rsp has:ITEMS]) {
-				NSLog(@"%d", [rsp retainCount]);
-				JSONArray *items = [[rsp getJSONArray:ITEMS] retain];
-				NSLog(@"%d", [rsp retainCount]);
-				itemsGetResponse.items = [TaobaoItemJSONConvert convertJsonArrayToItemList:items];
-				NSLog(@"%d", [items retainCount]);
-				//[items autorelease];
-				NSLog(@"%d", [items retainCount]);
-			}
-			[self setTotalResults:rsp andListUrlResponse:itemsGetResponse];
-			
-			NSLog(@"%d", [rsp retainCount]);
-			
-			if ((delegate != nil) && [delegate respondsToSelector:@selector(itemsGetSucceeded:)]) {
-				[delegate itemsGetSucceeded:itemsGetResponse];
-			}
-		} else {
-			/*items get failed*/
-			if ((delegate != nil) && [delegate respondsToSelector:@selector(itemsGetFailed:)]) {
-				[delegate itemsGetFailed:itemsGetResponse];
-			}
-		}
-	}
-	NSLog(@"%d", [itemsGetResponse retainCount]);
-	[itemsGetResponse release];
-
-}
-
-#elif USE_DICTIONARY_AND_ARRAY
 
 -(void)itemsGetProcess:(NSData *)data {
 	NSLog(@"itemsGetProcess");
@@ -428,7 +358,8 @@ static NSString* const V = @"v";
 	[itemsGetResponse release];
 }
 
-#endif
+
+
 
 -(void)dealloc {
 	[appkey release];
