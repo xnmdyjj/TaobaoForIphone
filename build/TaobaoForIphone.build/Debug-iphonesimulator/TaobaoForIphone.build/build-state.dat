@@ -1,7 +1,7 @@
 TTaobaoForIphone
 v7
 r0
-t283254449.489641
+t283255138.058463
 cCheck dependencies
 cProcessInfoPlistFile /Users/cybercom/Documents/TaobaoForIphone/build/Debug-iphonesimulator/TaobaoForIphone.app/Info.plist TaobaoForIphone-Info.plist
 cCompileXIB /Users/cybercom/Documents/TaobaoForIphone/MainWindow.xib
@@ -747,7 +747,7 @@ lSLF07#2@72"Compile /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstan
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies283254449#283254449#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies283255138#283255138#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/TaobaoForIphone.build/Debug-iphonesimulator/TaobaoForIphone.build/Objects-normal/i386/ApiConstants.o /Users/cybercom/Documents/TaobaoForIphone/Classes/ApiConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s283253672.255911

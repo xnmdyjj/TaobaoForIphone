@@ -128,6 +128,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F1BDEF5B10D0EB0C0078F6C3 /* JSON */,
 				F146202210E21E1600D6D41D /* Taobao */,
 				1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */,
@@ -188,7 +189,6 @@
 		F146202210E21E1600D6D41D /* Taobao */ = {
 			isa = PBXGroup;
 			children = (
-				F1BDEF5B10D0EB0C0078F6C3 /* JSON */,
 				F1BDEFB310D0ECB60078F6C3 /* util */,
 				F1BDEF7410D0EB0C0078F6C3 /* model */,
 				F1BDEF6B10D0EB0C0078F6C3 /* convert */,

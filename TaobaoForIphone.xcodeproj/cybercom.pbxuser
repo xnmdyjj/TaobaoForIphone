@@ -2,14 +2,14 @@
 {
 	1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 482}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1074, 475}}";
 			sepNavSelRange = "{182, 0}";
 			sepNavVisRange = "{0, 492}";
 		};
 	};
 	1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 482}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1074, 475}}";
 			sepNavSelRange = "{600, 0}";
 			sepNavVisRange = "{0, 749}";
 		};
@@ -79,6 +79,12 @@
 			F146203310E21E6B00D6D41D /* PBXTextBookmark */ = F146203310E21E6B00D6D41D /* PBXTextBookmark */;
 			F146203410E21E6B00D6D41D /* PBXTextBookmark */ = F146203410E21E6B00D6D41D /* PBXTextBookmark */;
 			F146203510E21E6B00D6D41D /* PBXTextBookmark */ = F146203510E21E6B00D6D41D /* PBXTextBookmark */;
+			F146204710E21F6000D6D41D /* PBXTextBookmark */ = F146204710E21F6000D6D41D /* PBXTextBookmark */;
+			F146204810E21F6000D6D41D /* PBXTextBookmark */ = F146204810E21F6000D6D41D /* PBXTextBookmark */;
+			F146204910E21F6000D6D41D /* PBXTextBookmark */ = F146204910E21F6000D6D41D /* PBXTextBookmark */;
+			F146204A10E21F6000D6D41D /* PBXTextBookmark */ = F146204A10E21F6000D6D41D /* PBXTextBookmark */;
+			F146204B10E21F6000D6D41D /* PBXTextBookmark */ = F146204B10E21F6000D6D41D /* PBXTextBookmark */;
+			F146204C10E21F6000D6D41D /* PBXTextBookmark */ = F146204C10E21F6000D6D41D /* PBXTextBookmark */;
 			F148452910E212A70005181A = F148452910E212A70005181A /* PBXTextBookmark */;
 			F148453210E215620005181A = F148453210E215620005181A /* PBXTextBookmark */;
 			F148453310E215620005181A = F148453310E215620005181A /* PBXTextBookmark */;
@@ -207,16 +213,16 @@
 	};
 	F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1074, 452}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1074, 475}}";
 			sepNavSelRange = "{404, 0}";
 			sepNavVisRange = "{0, 541}";
 		};
 	};
 	F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1433, 1443}}";
-			sepNavSelRange = "{1026, 0}";
-			sepNavVisRange = "{433, 1571}";
+			sepNavIntBoundsRect = "{{0, 0}, {1433, 1638}}";
+			sepNavSelRange = "{2, 0}";
+			sepNavVisRange = "{3, 1022}";
 		};
 	};
 	F13F17B210DA336E004836DD /* PBXTextBookmark */ = {
@@ -408,6 +414,66 @@
 		rType = 0;
 		vrLen = 541;
 		vrLoc = 0;
+	};
+	F146204710E21F6000D6D41D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF6910D0EB0C0078F6C3 /* ApiConstants.h */;
+		name = "ApiConstants.h: 228";
+		rLen = 0;
+		rLoc = 6913;
+		rType = 0;
+		vrLen = 1238;
+		vrLoc = 5501;
+	};
+	F146204810E21F6000D6D41D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */;
+		name = "TaobaoUrlFetchDelegate.h: 4";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	F146204910E21F6000D6D41D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TaobaoForIphoneAppDelegate.h */;
+		name = "TaobaoForIphoneAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	F146204A10E21F6000D6D41D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TaobaoForIphoneAppDelegate.m */;
+		name = "TaobaoForIphoneAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	F146204B10E21F6000D6D41D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5E10D0E875007494B1 /* TaobaoViewController.h */;
+		name = "TaobaoViewController.h: 19";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	F146204C10E21F6000D6D41D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12C7C5F10D0E875007494B1 /* TaobaoViewController.m */;
+		name = "TaobaoViewController.m: 1";
+		rLen = 0;
+		rLoc = 2;
+		rType = 0;
+		vrLen = 1022;
+		vrLoc = 3;
 	};
 	F148452910E212A70005181A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1037,7 +1103,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1074, 3224}}";
 			sepNavSelRange = "{6913, 0}";
-			sepNavVisRange = "{5466, 1273}";
+			sepNavVisRange = "{5501, 1238}";
 		};
 	};
 	F1BDEF6A10D0EB0C0078F6C3 /* ApiConstants.m */ = {
@@ -1318,7 +1384,7 @@
 	};
 	F1BDEF8E10D0EB0C0078F6C3 /* TaobaoUrlFetchDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1074, 507}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1074, 475}}";
 			sepNavSelRange = "{67, 0}";
 			sepNavVisRange = "{0, 249}";
 		};

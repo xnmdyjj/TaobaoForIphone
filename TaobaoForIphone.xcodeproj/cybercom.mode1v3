@@ -265,13 +265,13 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>F146202210E21E1600D6D41D</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>29</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -295,7 +295,7 @@
 							<real>257</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>237 147 1414 829 0 0 1600 978 </string>
+						<string>216 137 1414 829 0 0 1600 978 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TaobaoViewController.h</string>
+								<string>TaobaoViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,11 +321,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TaobaoViewController.h</string>
+										<string>TaobaoViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F146203510E21E6B00D6D41D</string>
+										<string>F146204C10E21F6000D6D41D</string>
 										<key>history</key>
 										<array>
 											<string>F13F17B210DA336E004836DD</string>
@@ -338,8 +338,6 @@
 											<string>F1F0A7E710DF7E4900FCB42E</string>
 											<string>F1F0A7E910DF7E4900FCB42E</string>
 											<string>F1F0A7EA10DF7E4900FCB42E</string>
-											<string>F1F0A7EE10DF7E4900FCB42E</string>
-											<string>F1F0A7EF10DF7E4900FCB42E</string>
 											<string>F1F0A7F010DF7E4900FCB42E</string>
 											<string>F1F0A7F110DF7E4900FCB42E</string>
 											<string>F18F7F9B10E0B9090093A95E</string>
@@ -365,7 +363,6 @@
 											<string>F18F80BB10E0D5A90093A95E</string>
 											<string>F18F80BD10E0D5A90093A95E</string>
 											<string>F18F80C010E0D5A90093A95E</string>
-											<string>F18F80C210E0D5A90093A95E</string>
 											<string>F148452910E212A70005181A</string>
 											<string>F148453210E215620005181A</string>
 											<string>F148453410E215620005181A</string>
@@ -381,12 +378,15 @@
 											<string>F146202D10E21E6B00D6D41D</string>
 											<string>F146202E10E21E6B00D6D41D</string>
 											<string>F146202F10E21E6B00D6D41D</string>
-											<string>F146203010E21E6B00D6D41D</string>
 											<string>F146203110E21E6B00D6D41D</string>
 											<string>F146203210E21E6B00D6D41D</string>
-											<string>F146203310E21E6B00D6D41D</string>
 											<string>F146203410E21E6B00D6D41D</string>
-											<string>F180A65310E1F5F900FF686E</string>
+											<string>F146204710E21F6000D6D41D</string>
+											<string>F146204810E21F6000D6D41D</string>
+											<string>F146204910E21F6000D6D41D</string>
+											<string>F146204A10E21F6000D6D41D</string>
+											<string>F146204B10E21F6000D6D41D</string>
+											<string>F146203010E21E6B00D6D41D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -400,7 +400,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1135, 532}}</string>
 								<key>RubberWindowFrame</key>
-								<string>237 147 1414 829 0 0 1600 978 </string>
+								<string>216 137 1414 829 0 0 1600 978 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -420,7 +420,7 @@
 								<key>Frame</key>
 								<string>{{0, 537}, {1135, 251}}</string>
 								<key>RubberWindowFrame</key>
-								<string>237 147 1414 829 0 0 1600 978 </string>
+								<string>216 137 1414 829 0 0 1600 978 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -584,7 +584,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F146204010E21E6B00D6D41D</string>
+		<string>F146204D10E21F6000D6D41D</string>
 		<string>F146204110E21E6B00D6D41D</string>
 		<string>F146204210E21E6B00D6D41D</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -593,7 +593,7 @@
 		<string>/Users/cybercom/Documents/TaobaoForIphone/TaobaoForIphone.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>237 147 1414 829 0 0 1600 978 </string>
+	<string>216 137 1414 829 0 0 1600 978 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -939,7 +939,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-32 514 650 250 0 0 1600 978 </string>
+								<string>24 519 650 250 0 0 1600 978 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -968,7 +968,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>-32 514 650 250 0 0 1600 978 </string>
+			<string>24 519 650 250 0 0 1600 978 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
